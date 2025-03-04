@@ -2,8 +2,6 @@
 title: Jianpeng Chen
 position: Ph.D. student
 affiliation: Virginia Tech
-affiliation_link: https://www.vt.edu/
-affiliation_logo: ./assets/img/Horizontal_VT_Full_Color_RGB.svg
 email: jianpengc@vt.edu
 
 # Search Engine Optimization (SEO)
@@ -23,7 +21,7 @@ linkedin: www.linkedin.com/in/jianpengc
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/Jianpengc.jpg
+avatar: ./assets/img/avatar.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
