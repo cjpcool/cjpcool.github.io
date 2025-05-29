@@ -4,7 +4,8 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at Virginia Tech.
+Jianpeng Chen is currently a PhD student at Virginia Tech. His research focuses on machine learning, data mining, and their applications in scientific domains.
+
 
 ## Research Interests
 
