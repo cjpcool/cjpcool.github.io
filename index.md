@@ -4,8 +4,9 @@ layout: homepage
 
 ## About Me
 
-Jianpeng Chen is currently a PhD student at [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab) from the department of computer science **Virginia Tech**, and is fortunately advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0). During his M.S. degree at University of Electronic Science and Technology of China (UESTC), he was advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he). His research generally lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and unsupervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling for **metamaterials** and **molecules**, etc.), contributing to the comunity of **AI for science**.
+Jianpeng Chen is a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where he is advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). During his M.S. degree at University of Electronic Science and Technology of China (UESTC), he was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He] on the topic of multi-view/graph learning.
 
+His research generally lies in **data mining** and **machine learning**, with a particular focus on **generative models**, **graph learning**, unsupervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the broader fields of **AI for science**.
 
 ## Research Interests
 
@@ -21,7 +22,7 @@ Jianpeng Chen is currently a PhD student at [VLOG Lab](https://sites.google.com/
 - **[Jan. 2025]** Our paper about **Multi-view Clustering** and **Graph Geneartion** is accepted by **TNNLS**.
 
 ## Internship Experience
-- **[Sep. 2023 - Dec. 2024]** [Shanghai AI Lab](https://www.shlab.org.cn/) | AI for Science 
+**[Sep. 2023 - Dec. 2024]** [Shanghai AI Lab](https://www.shlab.org.cn/) | AI for Science 
 
 
 {% include_relative _includes/publications.md %}
