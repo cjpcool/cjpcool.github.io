@@ -1,22 +1,33 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
+    authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
+    conference_short: KDD DB Track
+    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2505.20299
+    code: https://github.com/cjpcool/Metamaterial-Benchmark
+    page: http://zhoulab-1.cs.vt.edu:5550
+    bibtex: ./
+    image: ./assets/img/MetamatBench.png
+    notes: 
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
+    authors: Wangzhi Zhan, <strong>Jianpeng Chen<\strong>, Dongqi Fu, Dawei Zhou
+    conference_short: ICML
+    conference: Forty-second International Conference on Machine Learning, <strong>(ICML)</strong>, 2025.
+    pdf: ./
+    code: https://github.com/wzhan24/UniMate
+    bibtex: ./
+    image: ./assets/img/Unimate.png
+
+  - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
+    authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen<\strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
+    conference_short: NAACL Demo Track
+    conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track <strong>(NAACL Demo)</strong>, 2025.
+    pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
+    # code: 
+    page: http://zhoulab-1.cs.vt.edu:5557
+    bibtex: https://aclanthology.org/2025.naacl-demo.34/
+    image: ./assets/img/MetaScientist.png
+    # notes: 
+
