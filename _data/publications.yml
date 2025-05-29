@@ -8,7 +8,7 @@ main:
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
     bibtex: ./
-    image: ./assets/img/MetamatBench.png
+    image: ./assets/pub_img/MetamatBench.png
     # notes: 
 
   - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
@@ -18,7 +18,7 @@ main:
     pdf: ./
     code: https://github.com/wzhan24/UniMate
     bibtex: ./
-    image: ./assets/img/Unimate.png
+    image: ./assets/pub_img/Unimate.png
 
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
     authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
@@ -28,7 +28,7 @@ main:
     # code: 
     page: http://zhoulab-1.cs.vt.edu:5557
     bibtex: https://aclanthology.org/2025.naacl-demo.34/
-    image: ./assets/img/MetaScientist.png
+    image: ./assets/pub_img/MetaScientist.png
     # notes: 
 
   - title: "Variational Graph Generator for Multi-View Graph Clustering"
