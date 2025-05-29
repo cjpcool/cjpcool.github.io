@@ -18,7 +18,7 @@ main:
     pdf: ./
     code: https://github.com/wzhan24/UniMate
     bibtex: ./
-    image: ./assets/pub_img/Unimate.png
+    image: ./assets/pub_img/UniMate.png
 
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
     authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
@@ -55,7 +55,7 @@ main:
     image: ./assets/pub_img/SMHGC.png
 
   - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
-    authors: Tingwei Chen, <strong>Jianpeng Chen</strong>, Dawei Zhou
+    authors: Tingwei Chen, <strong>Jianpeng Chen (Equal Contribution)</strong>, Dawei Zhou
     conference_short: IJCAI Demo
     conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track <strong>(IJCAI Demo)</strong>, 2024
     pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
@@ -78,7 +78,6 @@ main:
     image: ./assets/pub_img/SAMGC.png
     bibtex: https://citation-needed.springer.com/v2/references/10.1007/978-3-031-30105-6_5?format=bibtex&flavour=citation
     
-
 
   - title: "Customizing Graph Neural Network using Path Reweighting"
     authors: <strong>Jianpeng Chen</strong>, Yujing Wang (Equal Contribution), Ming Zeng (Equal Contribution), Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
