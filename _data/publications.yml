@@ -12,16 +12,16 @@ main:
     # notes: 
 
   - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
-    authors: Wangzhi Zhan, <strong>Jianpeng Chen<\strong>, Dongqi Fu, Dawei Zhou
+    authors: Wangzhi Zhan, <strong>Jianpeng Chen</strong>, Dongqi Fu, Dawei Zhou
     conference_short: ICML
-    conference: Forty-second International Conference on Machine Learning, <strong>(ICML)</strong>, 2025.
+    conference: Forty-second International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
     pdf: ./
     code: https://github.com/wzhan24/UniMate
     bibtex: ./
     image: ./assets/img/Unimate.png
 
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
-    authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen<\strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
+    authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
     conference_short: NAACL Demo Track
     conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track <strong>(NAACL Demo)</strong>, 2025.
     pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
@@ -30,4 +30,51 @@ main:
     bibtex: https://aclanthology.org/2025.naacl-demo.34/
     image: ./assets/img/MetaScientist.png
     # notes: 
+
+  - title: "Variational Graph Generator for Multi-View Graph Clustering"
+    authors: <strong>Jianpeng Chen</strong>, Yawen Ling, Jie Xu, Yazhou Ren, Shudong Huang, Xiaorong Pu, Zhifeng Hao, S Yu Philip, Lifang He
+    journal: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, IF=10.4.
+    pdf: https://ieeexplore.ieee.org/document/10833915
+    
+  - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
+    authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou*
+    conference_short: NeurIPS
+    conference: Thirty-eighth Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    pdf: https://openreview.net/pdf?id=plIuBfYpXj
+
+  - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
+    authors: Tingwei Chen$^1$, <strong>Jianpeng Chen</strong>$^1$, Dawei Zhou*
+    conference_short: IJCAI
+    conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong>, 2024.
+    pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
+
+
+  - title: "Homophily-Related: Adaptive Hybrid Graph Filter for Multi-View Graph Clustering"
+    authors: Zichen Wen, Yawen Ling, Yazhou Ren, Tianyi Wu, <strong>Jianpeng Chen</strong>, Xiaorong Pu, Zhifeng Hao, Lifang He
+    conference_short: AAAI
+    conference: Proceedings of the 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024. Poster
+    pdf: https://arxiv.org/abs/2401.02682
+
+  - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
+    authors: Yawen Ling$^1$, <strong>Jianpeng Chen</strong>$^1$, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
+    conference_short: AAAI
+    conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023. Oral
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
+
+  - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
+    authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
+    conference_short: ICONIP
+    conference: Proceedings of the 29th International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2022. Accept rate=14.6%
+    pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
+
+  - title: "FaST-Net: Face Style Self-Transfer Network for Masked Face Inpainting"
+    authors: Yiming Li$^1$, <strong>Jianpeng Chen</strong>$^1$, Yazhou Ren$^*$, Xiaorong Pu
+    conference_short: DSInS
+    conference: Proceedings of SPIE 12599, International Symposium on Digital Forensics and Security <strong>(DSInS)</strong>, 2022. Best Paper Award
+    pdf: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12599/1259925
+
+  - title: "Customizing Graph Neural Network using Path Reweighting"
+    authors: <strong>Jianpeng Chen</strong>$^1$, Yujing Wang$^1$, Ming Zeng$^1$, Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren
+    journal: Information Sciences, IF=8.2.
+    pdf: https://www.sciencedirect.com/science/article/pii/S0020025524005942
 
