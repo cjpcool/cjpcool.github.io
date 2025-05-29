@@ -9,7 +9,7 @@ main:
     page: http://zhoulab-1.cs.vt.edu:5550
     bibtex: ./
     image: ./assets/img/MetamatBench.png
-    notes: 
+    # notes: 
 
   - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
     authors: Wangzhi Zhan, <strong>Jianpeng Chen<\strong>, Dongqi Fu, Dawei Zhou
