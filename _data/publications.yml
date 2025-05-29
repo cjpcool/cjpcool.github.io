@@ -33,7 +33,8 @@ main:
 
   - title: "Variational Graph Generator for Multi-View Graph Clustering"
     authors: <strong>Jianpeng Chen</strong>, Yawen Ling, Jie Xu, Yazhou Ren*, Shudong Huang, Xiaorong Pu, Zhifeng Hao, S Yu Philip, Lifang He
-    journal: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, IF=10.4.
+    conference_short: TNNLS
+    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>
     pdf: https://ieeexplore.ieee.org/document/10833915
     image: ./assets/pub_img/VGMGC.png
 
@@ -45,20 +46,21 @@ main:
     image: ./assets/pub_img/HeroLT.png
 
   - title: "Similarity-Enhanced Homophily for Multi-View Heterophilous Graph Clustering"
-    authors: <underline><strong>Jianpeng Chen</strong></underline>, <underline>Yawen Ling</underline>, Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
-    journal: Preprint
+    authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
+    conference_short: Arxiv
+    conference: Preprint
     pdf: https://arxiv.org/abs/2410.03596
     image: ./assets/pub_img/SMHGC.png
 
   - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
     authors: Tingwei Chen, <strong>Jianpeng Chen</strong>, Dawei Zhou
     conference_short: IJCAI Demo
-    conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track<strong>(IJCAI)</strong>, 2024.
+    conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track <strong>(IJCAI Demo)</strong>, 2024.
     pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
     image: ./assets/pub_img/3D-FuM.png
 
   - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
-    authors: <underline>Yawen Ling</underline>, <underline><strong>Jianpeng Chen</strong></underline>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He (<underline>Equal Contribution</underline>)
+    authors: Yawen Ling, <strong>Jianpeng Chen (Equal Contribution)</strong>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
     conference_short: AAAI
     conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
@@ -70,13 +72,15 @@ main:
     conference_short: ICONIP
     conference: Proceedings of the 29th International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2022
     pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
-    note: LNNS Accept rate=14.6%
+    note: LNNS AC=14.6%, Oral Presentation
     image: ./assets/pub_img/SAMGC.png
+    
 
 
   - title: "Customizing Graph Neural Network using Path Reweighting"
-    authors: <strong>Jianpeng Chen</strong>, Yujing Wang, Ming Zeng, Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
-    journal: Information Sciences
+    authors: <strong>Jianpeng Chen</strong>, Yujing Wang (Equal Contribution), Ming Zeng (Equal Contribution), Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
+    conference_short: INS
+    conference: Information Sciences
     pdf: https://www.sciencedirect.com/science/article/pii/S0020025524005942
     image: ./assets/pub_img/CustomGNN.png
 
