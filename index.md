@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Ph.D. student at Virginia Tech.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Data Mining:** graph mining, geometric learning, generative model
+- **AI for Science:** metamaterial discovery, molecular dynamic simulation
 
 ## News
 
