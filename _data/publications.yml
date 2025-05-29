@@ -2,8 +2,8 @@ main:
 
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
-    conference_short: KDD DB Track
-    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD)</strong>, 2025.
+    conference_short: KDD DB
+    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining DB Track<strong>(KDD)</strong>, 2025.
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
@@ -32,49 +32,52 @@ main:
     # notes: 
 
   - title: "Variational Graph Generator for Multi-View Graph Clustering"
-    authors: <strong>Jianpeng Chen</strong>, Yawen Ling, Jie Xu, Yazhou Ren, Shudong Huang, Xiaorong Pu, Zhifeng Hao, S Yu Philip, Lifang He
+    authors: <strong>Jianpeng Chen</strong>, Yawen Ling, Jie Xu, Yazhou Ren*, Shudong Huang, Xiaorong Pu, Zhifeng Hao, S Yu Philip, Lifang He
     journal: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, IF=10.4.
     pdf: https://ieeexplore.ieee.org/document/10833915
-    
+    image: ./assets/pub_img/VGMGC.png
+
   - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
-    authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou*
-    conference_short: NeurIPS
-    conference: Thirty-eighth Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2024.
+    authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou
+    conference_short: NeurIPS DB
+    conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track <strong>(NeurIPS DB)</strong>, 2024.
     pdf: https://openreview.net/pdf?id=plIuBfYpXj
+    image: ./assets/pub_img/HeroLT.png
+
+  - title: "Similarity-Enhanced Homophily for Multi-View Heterophilous Graph Clustering"
+    authors: <underline><strong>Jianpeng Chen</strong></underline>, <underline>Yawen Ling</underline>, Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
+    journal: Preprint
+    pdf: https://arxiv.org/abs/2410.03596
+    image: ./assets/pub_img/SMHGC.png
 
   - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
-    authors: Tingwei Chen$^1$, <strong>Jianpeng Chen</strong>$^1$, Dawei Zhou*
-    conference_short: IJCAI
-    conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong>, 2024.
+    authors: Tingwei Chen, <strong>Jianpeng Chen</strong>, Dawei Zhou
+    conference_short: IJCAI Demo
+    conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track<strong>(IJCAI)</strong>, 2024.
     pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
-
-
-  - title: "Homophily-Related: Adaptive Hybrid Graph Filter for Multi-View Graph Clustering"
-    authors: Zichen Wen, Yawen Ling, Yazhou Ren, Tianyi Wu, <strong>Jianpeng Chen</strong>, Xiaorong Pu, Zhifeng Hao, Lifang He
-    conference_short: AAAI
-    conference: Proceedings of the 38th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2024. Poster
-    pdf: https://arxiv.org/abs/2401.02682
+    image: ./assets/pub_img/3D-FuM.png
 
   - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
-    authors: Yawen Ling$^1$, <strong>Jianpeng Chen</strong>$^1$, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
+    authors: <underline>Yawen Ling</underline>, <underline><strong>Jianpeng Chen</strong></underline>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He (<underline>Equal Contribution</underline>)
     conference_short: AAAI
-    conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023. Oral
+    conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
+    note: Oral Presentation
+    image: ./assets/pub_img/DuaLGR.png
 
   - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
     authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
     conference_short: ICONIP
-    conference: Proceedings of the 29th International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2022. Accept rate=14.6%
+    conference: Proceedings of the 29th International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2022
     pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
+    note: LNNS Accept rate=14.6%
+    image: ./assets/pub_img/SAMGC.png
 
-  - title: "FaST-Net: Face Style Self-Transfer Network for Masked Face Inpainting"
-    authors: Yiming Li$^1$, <strong>Jianpeng Chen</strong>$^1$, Yazhou Ren$^*$, Xiaorong Pu
-    conference_short: DSInS
-    conference: Proceedings of SPIE 12599, International Symposium on Digital Forensics and Security <strong>(DSInS)</strong>, 2022. Best Paper Award
-    pdf: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12599/1259925
 
   - title: "Customizing Graph Neural Network using Path Reweighting"
-    authors: <strong>Jianpeng Chen</strong>$^1$, Yujing Wang$^1$, Ming Zeng$^1$, Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren
-    journal: Information Sciences, IF=8.2.
+    authors: <strong>Jianpeng Chen</strong>, Yujing Wang, Ming Zeng, Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
+    journal: Information Sciences
     pdf: https://www.sciencedirect.com/science/article/pii/S0020025524005942
+    image: ./assets/pub_img/CustomGNN.png
+
 
