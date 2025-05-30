@@ -29,6 +29,6 @@ His research generally lies in **data mining** and **machine learning**, with a 
 
 
 ## Talks
-- Accepted Talk (Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery) at **AAAI Spring Symposia 2025**
+- Accepted Talk (Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery) at **Towards Agentic AI for Science, AAAI Spring Symposia 2025**
 
 {% include_relative _includes/services.md %}
