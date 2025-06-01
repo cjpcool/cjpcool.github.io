@@ -10,8 +10,8 @@ His research generally lies in **data mining** and **machine learning**, with a 
 
 ## Research Interests
 
-- **Data Mining:** graph mining, geometric learning, generative model
-- **AI for Science:** metamaterial discovery, molecular dynamic simulation
+- **Data Mining:** Graph learning, Multi-modal/view/graph learning, Geometric generation
+- **AI for Science:** Metamaterial discovery, Molecular dynamic simulation
 
 ## News
 
@@ -22,7 +22,7 @@ His research generally lies in **data mining** and **machine learning**, with a 
 - **[Jan. 2025]** Our paper [VGMGC](https://ieeexplore.ieee.org/document/10833915) about **Multi-view Clustering** and **Graph Geneartion** is accepted by **TNNLS**.
 
 ## Internship Experience
-**[Sep. 2023 - Dec. 2024]** [Shanghai AI Lab](https://www.shlab.org.cn/) | AI for Science 
+**[Sep. 2023 - Dec. 2024]** Reserach Intern | [Shanghai AI Lab](https://www.shlab.org.cn/) | AI for Science 
 
 
 {% include_relative _includes/publications.md %}
