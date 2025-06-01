@@ -1,5 +1,5 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
-<p style="margin-top: 0px; font-size: 90%;">
+<p style="margin-top: 3px; font-size: 90%;">
   Refer to <a href="https://scholar.google.com/citations?user=9RgIQ50AAAAJ" target="_blank">Google Scholar</a> for full publication list.
 </p>
 <div class="publications">
