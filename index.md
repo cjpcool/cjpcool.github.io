@@ -20,7 +20,7 @@ My research generally lies in **data mining** and **machine learning**, with a p
 
 ## News
 
-- **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), about **Metamaterial Discovery** is accepted by **KDD Datasets and Benchmarks Track 2025**, see you in Toronto.
+- **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), about **Metamaterial Discovery** is accepted by **KDD Datasets and Benchmarks Track 2025**. See you in Toronto.
 - **[April 2025]** Our paper [Unimate]() about **Metamaterial Discovery** is accepted by **ICML 2025**.
 - **[Mar 2025]** I will give a Talk about **Metamaterial** on Towards Agentic AI for Science at **AAAI Spring Symposia 2025**. See you in SF.
 - **[Mar 2025]** Our demo [MetaScientist](https://arxiv.org/abs/2412.16270) about **Metamaterial Scientist**  is accepted by **NAACL 2025**.
