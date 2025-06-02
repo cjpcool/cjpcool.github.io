@@ -8,8 +8,8 @@ I am currently a Ph.D. student in the Department of Computer Science at [Virgini
 
 My research generally lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and self-supervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the community of **AI for science**. I aim to provide novel insights into these areas, and some major results are as follows.
 - **Metamaterial Discovery** (KDD DB'25) provides the first benchmark for metamaterial that integrates heterogeneous data, ML models, novel metrics, and a visual-interactive interface.
-- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaboration between graphs for self-supervised learning.
 - **Heterophilous Multi-View Graph Learning** (AAAI'23, AAAI'24, preprint'24) focuses on heterophily issues of graph learning, exploring how to utilize and exempt heterophilous information within multi-view graphs.
+- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaboration between graphs for self-supervised learning.
 - **Graph Semantic Extraction** (INS'24) dives into extracting task-relevant semantic information from graphs.
   
 ## Research Interests
