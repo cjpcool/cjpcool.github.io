@@ -27,7 +27,7 @@ My research generally lies in **data mining** and **machine learning**, with a p
 - **[Jan. 2025]** Our paper [VGMGC](https://ieeexplore.ieee.org/document/10833915) about **Multi-view Clustering** and **Graph Geneartion** is accepted by **TNNLS**.
 
 ## Internship Experience
-- **[Sep. 2023 - Dec. 2024]** Reserach Intern | [Shanghai AI Lab](https://www.shlab.org.cn/) | AI for Science 
+- **[Sep. 2023 - Dec. 2024]** Reserach Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| AI for Science 
 
 
 {% include_relative _includes/publications.md %}
