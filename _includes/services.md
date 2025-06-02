@@ -3,7 +3,7 @@
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><a href=""><autocolor>Conference on Neural Information Processing Systems (NeurIPS) 2022, 2023, 2025 </autocolor></a></li>
+  <li><a href=""><autocolor>Conference on Neural Information Processing Systems (NeurIPS) 2023, 2024, 2025 </autocolor></a></li>
   <li><a href=""><autocolor>International Conference on Learning Representations (ICLR) 2024, 2025</autocolor></a></li>
   <li><a href=""><autocolor>International Conference on Machine Learning (ICML) 2025</autocolor></a></li>
   <li><a href=""><autocolor>SIGKDD Conference on Knowledge Discovery and Data Mining DB Track (KDD) 2025</autocolor></a></li>
