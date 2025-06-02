@@ -4,10 +4,14 @@ layout: homepage
 
 ## About Me
 
-Jianpeng Chen is a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where he is advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). During his M.S. degree at University of Electronic Science and Technology of China (UESTC), he was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph learning.
+I am currently a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where I am advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
 
-His research generally lies in **data mining** and **machine learning**, with a particular focus on **generative models**, **graph learning**, unsupervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the broader fields of **AI for science**.
-
+My research generally lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and self-supervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the community of **AI for science**. I aim to provide novel insights into these areas, and some major results are as follows.
+- **Metamaterial Discovery** (KDD DB'25) provides the first benchmark for metamaterial that integrates heterogeneous data, ML models, novel metrics, and a visual-interactive interface.
+- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaboration between graphs for self-supervised learning.
+- **Heterophilous Multi-View Graph Learning** (AAAI'23, AAAI'24, preprint'24) focuses on heterophily issues of graph learning, exploring how to utilize and exempt heterophilous information within multi-view graphs.
+- **Graph Semantic Extraction** (INS'24) dives into extracting task-relevant semantic information from graphs.
+  
 ## Research Interests
 
 - **Data Mining:** Graph learning, Multi-modal/view/graph learning, Geometric generation
