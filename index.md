@@ -4,13 +4,18 @@ layout: homepage
 
 ## About Me
 
-I am currently a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where I am advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
+I am currently a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where I am advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab).
+My current concentration is multi-modal/view/graph challenges in **AI for Science**, especially metamaterial discovery, material modeling and simulation, etc.
 
-My research generally lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and self-supervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the community of **AI for science**. I aim to provide novel insights into these areas, and some major results are as follows.
+<!--
+During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
+-->
+
+Generally, my research lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and self-supervised **multi-view/modal/graph learning**, as well as their applications in scientific domains, (e.g., 3D graph modeling of **metamaterials** and **molecules**, etc.), contributing to the community of **AI for science**. I aim to provide novel insights into these areas, and some major results are as follows.
 - **Metamaterial Discovery** (KDD DB'25) provides the first benchmark for metamaterial that integrates heterogeneous data, ML models, novel metrics, and a visual-interactive interface.
 - **3D Molecule Learning** (IJCAI Demo'24) explores the effectiveness of functional groups for molecular tasks (molecular property prediction, conformation generation, etc.).
 - **Heterophilous Multi-View Graph Learning** (AAAI'23, AAAI'24, preprint'24) focuses on heterophily issues of graph learning, exploring how to utilize and exempt heterophilous information within multi-view graphs.
-- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaboration between graphs for self-supervised learning.
+- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaborations between graphs for self-supervised learning.
 - **Graph Semantic Extraction** (INS'24) dives into extracting task-relevant semantic information from graphs.
   
 ## Research Interests
