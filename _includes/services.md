@@ -20,5 +20,4 @@
   <li><a href=""><autocolor>Journal of Data-Centric Machine Learning Research (DMLR)</autocolor></a></li>
   <li><a href=""><autocolor>Information Fusion</autocolor></a></li>
   <li><a href=""><autocolor>Information Sciences</autocolor></a></li>
-  <li><a href=""><autocolor>Scientific Reports</autocolor></a></li>
 </ul>
