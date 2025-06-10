@@ -1,6 +1,6 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<h4 style="margin:0 10px 0;">Conference PC/Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href=""><autocolor>Conference on Neural Information Processing Systems (NeurIPS) 2023, 2024, 2025 </autocolor></a></li>
@@ -15,6 +15,7 @@
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 
 <ul style="margin:0 0 20px;">
+  <li><a href=""><autocolor>IEEE Transactions on Artificial Intelligence (TAI)</autocolor></a></li>
   <li><a href=""><autocolor>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</autocolor></a></li>
   <li><a href=""><autocolor>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</autocolor></a></li>
   <li><a href=""><autocolor>Journal of Data-Centric Machine Learning Research (DMLR)</autocolor></a></li>
