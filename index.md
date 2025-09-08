@@ -24,7 +24,8 @@ Generally, my research lies in **data mining** and **machine learning**, with a 
 - **AI for Science:** Metamaterial discovery, Molecular dynamic simulation
 
 ## News
-
+- **[Aug. 2025]** My research topic on **Metamaterial discovery** is accepted by **ICDM PhD Forum**. See you in DC.
+- **[June 2025]** I am pleased to receive the **Virginia Tech Travel Award** from the Department of Computer Science at VT.
 - **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), about **Metamaterial Discovery** is accepted by **KDD Datasets and Benchmarks Track 2025**. See you in Toronto.
 - **[April 2025]** Our paper [Unimate]() about **Metamaterial Discovery** is accepted by **ICML 2025**.
 - **[Mar 2025]** I will give a Talk about **Metamaterial** on Towards Agentic AI for Science at **AAAI Spring Symposia 2025**. See you in SF.
