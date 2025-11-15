@@ -24,6 +24,7 @@ Generally, my research lies in **data mining** and **machine learning**, with a 
 - **AI for Science:** Metamaterial discovery, Molecular dynamic simulation
 
 ## News
+- **[Nov. 2025]** Congrats to Alex for our work, Generalizable Physics-Aware Refinement Framework for Metamaterial Design, receiving the **IEEE ICDM UGHS Rising Star Award**.
 - **[Aug. 2025]** My research topic on **Metamaterial discovery** is accepted by **ICDM PhD Forum**. See you in DC.
 - **[June 2025]** I am pleased to receive the **Virginia Tech Travel Award** from the Department of Computer Science at VT.
 - **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), about **Metamaterial Discovery** is accepted by **KDD Datasets and Benchmarks Track 2025**. See you in Toronto.
