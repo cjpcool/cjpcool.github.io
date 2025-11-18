@@ -38,7 +38,7 @@ Some major results are as follows (with overlap across domains):
 {% include_relative _includes/services.md %}
 
 ---
-<div style="zoom: 0.5;">
+<div style="width:300px; max-width:100%;">
 <script type="text/javascript" id="clustrmaps" 
         src="//clustrmaps.com/map_v2.js?d=STUe-Dr80qV_XZa9IGl3qynH3BoXdUUmmQVd9mkim3M&cl=ffffff&w=a">
 </script>
