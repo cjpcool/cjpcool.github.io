@@ -15,9 +15,16 @@ Some major results are as follows (with overlap across domains):
 * **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
 ## News
-{% for item in site.data.news limit:10 %}
-- **[{{ item.date }}]** {{ item.text }}
-{% endfor %}
+- **[Nov. 2025]** Congrats to Alex for our work, **Generalizable Physics-Aware Refinement Framework for Metamaterial Design**, receiving the **IEEE ICDM UGHS Rising Star Award**.
+- **[Nov. 2025]** Congrats to our paper, **The End of Trial-and-Error: A Vision for Generative Intelligence in Metamaterial Design**, accepted by **IEEE ICDM Bluesky**.
+- **[Aug. 2025]** My research topic on **Metamaterial Discovery** is accepted by **ICDM PhD Forum**. See you in DC.
+- **[June 2025]** I am pleased to receive the **Virginia Tech Travel Award**.
+- **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), on **Metamaterial Discovery**, is accepted by **KDD 2025**.
+- **[April 2025]** Our paper **Unimate** is accepted by **ICML 2025**.
+- **[Mar. 2025]** I will give a talk on **Metamaterial** at **AAAI Spring Symposia 2025**.
+- **[Mar. 2025]** Our demo [MetaScientist](https://arxiv.org/abs/2412.16270) is accepted by **NAACL 2025**.
+- **[Jan. 2025]** Our paper [VGMGC](https://ieeexplore.ieee.org/document/10833915) is accepted by **TNNLS**.
+
 
 
 <!-- ## Internship Experience 
