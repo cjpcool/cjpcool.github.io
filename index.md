@@ -15,9 +15,18 @@ Some major results are as follows (with overlap across domains):
 * **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
 ## News
+<style>
+.news-list li {
+    margin-bottom: 2px;   /* 控制每条之间的间距 */
+    line-height: 1.1;     /* 控制行高 */
+}
+</style>
+<ul class="news-list">
 {% for item in site.data.news limit:10 %}
-- **[{{ item.date }}]** {{ item.text }}
+  <li><strong>[{{ item.date }}]</strong> {{ item.text }}</li>
 {% endfor %}
+</ul>
+
 
 <!-- ## Internship Experience 
  - **[Sep. 2023 - Dec. 2024]** Reserach Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| AI for Science 
