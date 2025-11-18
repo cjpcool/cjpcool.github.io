@@ -5,24 +5,15 @@ layout: homepage
 ## About Me
 
 I am currently a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where I am advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab).
-My current concentration is multi-modal/view/graph challenges in **AI for Science**, especially metamaterial discovery, material/molecular modeling and simulation, etc.
+During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
 
-<!--
-During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and closely worked with [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
--->
-
-Generally, my research lies in **data mining** and **machine learning**, with a particular focus on **graph learning** and self-supervised **multi-modal/view/graph learning**. Furthermore, I seek to apply my research to scientific domains such as 3D graph modeling of **metamaterials** and **molecules**, etc., contributing to the community of **AI for science**. I aim to provide novel insights into these areas, and some major results are as follows.
-- **Metamaterial Discovery** (KDD DB'25) provides the first benchmark for metamaterial that integrates heterogeneous data, ML models, novel metrics, and a visual-interactive interface.
-- **3D Molecule Learning** (IJCAI Demo'24) explores the effectiveness of functional groups for molecular tasks (molecular property prediction, conformation generation, etc.).
-- **Heterophilous Multi-View Graph Learning** (AAAI'23, AAAI'24, preprint'24) focuses on heterophily issues of graph learning, exploring how to utilize and exempt heterophilous information within multi-view graphs.
-- **Multi-View Graph Learning** (TNNLS'25, ICONIP'22) first studies complex graph-structured data under a multi-view scenario, providing different insights of collaborations between graphs for self-supervised learning.
-- **Graph Semantic Extraction** (INS'24) dives into extracting task-relevant semantic information from graphs.
+Generally, my research lies in **data mining** and **machine learning**, with a particular focus on self-/un-supervised **multi-modal/view/graph learning**. and **Agentic LLMs**. I also seek to apply my research to scientific domains, such as 3D graph modeling of **metamaterials** and **molecules**, contributing to the broader community of **AI for science**. *To date, my work has led to multiple publications in top-tier venues, including KDD, AAAI, TNNLS, ICML, NAACL, etc., spanning machine learning, language models, and scientific discovery.*
+Some major results are as follows (with overlap across domains):
+* **Agentic LLMs** (Preprints'25: LinguaMate, ChemBOMAS) paves the way for collaboration between knowledge-driven agents and data-driven agents by exploring symbolic-driven latent optimization and finetuned LLM with Bayesian optimization.
+* **Multi-view/modal learning** (ICML'25, AAAI'23, AAAI'24, ICONIP'22) studies unsupervised multi-view/modal alignment and collaboration mechanisms for clustering and generative tasks.
+* **Graph learning/generation** (INS'24, TNNLS'25) develops methods for graph semantic extraction and specification-aware variational inference for graph generation.
+* **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
-## Research Interests
-
-- **Data Mining:** Graph learning, Multi-modal/view/graph learning, Geometric generation
-- **AI for Science:** Metamaterial discovery, Molecular dynamic simulation
-
 ## News
 - **[Nov. 2025]** Congrats to Alex for our work, **Generalizable Physics-Aware Refinement Framework for Metamaterial Design**, receiving the **IEEE ICDM UGHS Rising Star Award**.
 - **[Nov. 2025]** Congrats to our paper, **The End of Trial-and-Error: A Vision for Generative Intelligence in Metamaterial Design**, has been accepted by IEEE ICDM Bluesky.
@@ -47,4 +38,8 @@ Generally, my research lies in **data mining** and **machine learning**, with a 
 {% include_relative _includes/services.md %}
 
 ---
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=STUe-Dr80qV_XZa9IGl3qynH3BoXdUUmmQVd9mkim3M&cl=ffffff&w=a"></script>
+<div style="zoom: 0.5;">
+<script type="text/javascript" id="clustrmaps" 
+        src="//clustrmaps.com/map_v2.js?d=STUe-Dr80qV_XZa9IGl3qynH3BoXdUUmmQVd9mkim3M&cl=ffffff&w=a">
+</script>
+</div>
