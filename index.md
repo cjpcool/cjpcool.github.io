@@ -8,7 +8,7 @@ I am currently a Ph.D. student in the Department of Computer Science at [Virgini
 During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
 
 Generally, my research lies in **data mining** and **machine learning**, with a particular focus on self-/un-supervised **multi-modal/view/graph learning**. and **Agentic LLMs**. I also seek to apply my research to scientific domains, such as 3D graph modeling of **metamaterials** and **molecules**, contributing to the broader community of **AI for science**. *To date, my work has led to multiple publications in top-tier venues, including KDD, AAAI, TNNLS, ICML, NAACL, etc., spanning machine learning, language models, and scientific discovery.*
-Some major results are as follows (with overlap across domains):
+Some major results are as follows:
 * **Agentic LLMs** (Preprints'25: LinguaMate, ChemBOMAS) paves the way for collaboration between knowledge-driven agents and data-driven agents by exploring symbolic-driven latent optimization and finetuned LLM with Bayesian optimization.
 * **Multi-view/modal learning** (ICML'25, AAAI'23, AAAI'24, ICONIP'22) studies unsupervised multi-view/modal alignment and collaboration mechanisms for clustering and generative tasks.
 * **Graph learning/generation** (INS'24, TNNLS'25) develops methods for graph semantic extraction and specification-aware variational inference for graph generation.
