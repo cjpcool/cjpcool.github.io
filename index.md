@@ -15,6 +15,7 @@ Some major results are as follows (with overlap across domains):
 * **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
 ## News
+- **[Nov. 2025]** Glad to be recognized by **IEEE ICDM Organizing Committee** as a **Student Volunteer** to contribute to the inspiring community.
 - **[Nov. 2025]** Congrats to Alex for our work, **Generalizable Physics-Aware Refinement Framework for Metamaterial Design**, receiving the **IEEE ICDM UGHS Rising Star Award**.
 - **[Nov. 2025]** Congrats to our paper, **The End of Trial-and-Error: A Vision for Generative Intelligence in Metamaterial Design**, accepted by **IEEE ICDM Bluesky**.
 - **[Aug. 2025]** My research topic on **Metamaterial Discovery** is accepted by **ICDM PhD Forum**. See you in DC.
