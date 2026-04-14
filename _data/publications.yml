@@ -2,7 +2,7 @@ main:
 
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
-    conference_short: KDD DB
+    conference_short: KDD
     conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining DB Track<strong>(KDD DB)</strong>, 2025
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
@@ -42,16 +42,16 @@ main:
 
   - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
     authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou
-    conference_short: NeurIPS DB
+    conference_short: NeurIPS
     conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track <strong>(NeurIPS DB)</strong>, 2024
     pdf: https://openreview.net/pdf?id=plIuBfYpXj
     image: ./assets/pub_img/HeroLT.png
 
-  - title: "Similarity-Enhanced Homophily for Multi-View Heterophilous Graph Clustering"
+  - title: "SMHGC: Homophily-agnostic multi-view heterophilous graph clustering"
     authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
-    conference_short: Arxiv
-    conference: Preprint
-    pdf: https://arxiv.org/abs/2410.03596
+    conference_short: Pattern Rec.
+    conference: Pattern Recognition
+    pdf: https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333
     image: ./assets/pub_img/SMHGC.png
 
   - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
