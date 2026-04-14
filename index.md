@@ -15,6 +15,7 @@ Some major results are as follows:
 * **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
 ## News
+- **[April 2026]** Congrats to our paper on **multi-view heterophilous graph learning**, [SMHGC](https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333), has been published in **Pattern Recognition**. Thanks to all collaborators!
 - **[Mar. 2026]** Congratulations to our work, **Can Large Language Models Graduate in Materials Science? Evaluating Materials Science Reasoning and Intelligence of LLMs**, has been accepted by **ICLR AI4Mat Workshop**.
 - **[Nov. 2025]** Glad to be recognized by **IEEE ICDM Organizing Committee** as a **Student Volunteer** to contribute to the inspiring community.
 - **[Nov. 2025]** Congrats to Alex for our work, **Generalizable Physics-Aware Refinement Framework for Metamaterial Design**, receiving the **IEEE ICDM UGHS Rising Star Award**.
