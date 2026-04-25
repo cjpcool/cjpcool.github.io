@@ -17,7 +17,7 @@ Some major results are as follows:
 ## News
 
 {% assign news_items = site.data.news | sort: "date" | reverse %}
-{% for item in news_items limit:5 %}
+{% for item in news_items limit:8 %}
 - **[{{ item.display_date }}]** {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
 {% endfor %}
 [Archived News →](/news/)
