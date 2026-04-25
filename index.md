@@ -15,21 +15,13 @@ Some major results are as follows:
 * **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
   
 ## News
-- **[May 2026]** I will attend [North East AI Agents Day](https://ne-agents-day.github.io/) to present **MetaSymbO**, an agentic framework for metamaterial discovery. Let's meet in NYC!
-- **[April 2026]** Our work for **Physics-Grounded Material Claim Verification** has been accepted to [ACL 2026](https://2026.aclweb.org/). Many thanks to all collaborators. See you in San Diego!
-- **[April 2026]** I will join **Google YouTube** as a PhD intern this summer, focusing on **efficient inference and training for large-scale recommendation models**.
-- **[April 2026]** Congrats to our paper on **multi-view heterophilous graph learning**, [SMHGC](https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333), has been published in **Pattern Recognition**. Thanks to all collaborators!
-- **[Mar. 2026]** Congratulations to our work, **Can Large Language Models Graduate in Materials Science? Evaluating Materials Science Reasoning and Intelligence of LLMs**, has been accepted by **ICLR AI4Mat Workshop**.
-- **[Nov. 2025]** Glad to be recognized by **IEEE ICDM Organizing Committee** as a **Student Volunteer** to contribute to the inspiring community.
-- **[Nov. 2025]** Congrats to Alex for our work, **Generalizable Physics-Aware Refinement Framework for Metamaterial Design**, receiving the **IEEE ICDM UGHS Rising Star Award**.
-- **[Nov. 2025]** Congrats to our paper, **The End of Trial-and-Error: A Vision for Generative Intelligence in Metamaterial Design**, is accepted by **IEEE ICDM Bluesky**.
-- **[Aug. 2025]** My research topic on **Metamaterial Discovery** is accepted by **ICDM PhD Forum**. See you in DC.
-- **[June 2025]** I am pleased to receive the **Virginia Tech Travel Award**.
-- **[May 2025]** Our benchmark, [MetamatBench](https://arxiv.org/abs/2505.20299), on **Metamaterial Discovery**, is accepted by **KDD 2025**.
-- **[April 2025]** Our paper **Unimate** is accepted by **ICML 2025**.
-- **[Mar. 2025]** I will give a talk on **Metamaterial** at **AAAI Spring Symposia 2025**.
-- **[Mar. 2025]** Our demo [MetaScientist](https://arxiv.org/abs/2412.16270) is accepted by **NAACL 2025**.
-- **[Jan. 2025]** Our paper [VGMGC](https://ieeexplore.ieee.org/document/10833915) is accepted by **TNNLS**.
+
+{% assign news_items = site.data.news | sort: "date" | reverse %}
+{% for item in news_items limit:5 %}
+- **[{{ item.display_date }}]** {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
+{% endfor %}
+
+[Archived News →](/news/)
 
 
 
