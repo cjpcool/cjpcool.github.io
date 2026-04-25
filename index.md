@@ -20,7 +20,6 @@ Some major results are as follows:
 {% for item in news_items limit:5 %}
 - **[{{ item.display_date }}]** {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
 {% endfor %}
-
 [Archived News →](/news/)
 
 
