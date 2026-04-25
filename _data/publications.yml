@@ -32,7 +32,7 @@ main:
 
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
     authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
-    conference_short: NAACL Demo 2025
+    conference_short: NAACL 2025
     # conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track <strong>(NAACL Demo)</strong>, 2025
     pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
     # code: 
@@ -52,7 +52,7 @@ main:
 
   # - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
   #   authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou
-  #   conference_short: NeurIPS DB 2024
+  #   conference_short: NeurIPS 2024
   #   conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track <strong>(NeurIPS DB)</strong>, 2024
   #   pdf: https://openreview.net/pdf?id=plIuBfYpXj
   #   image: ./assets/pub_img/HeroLT.png
