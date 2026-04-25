@@ -57,11 +57,12 @@ main:
   #   pdf: https://openreview.net/pdf?id=plIuBfYpXj
   #   image: ./assets/pub_img/HeroLT.png
 
-  - title: "SMHGC: Homophily-agnostic multi-view heterophilous graph clustering"
+  - title: "SMHGC: Homophily-Agnostic Multi-View Heterophilous Graph Clustering"
     authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
     conference_short: Pattern Rec.
     conference: Pattern Recognition
     pdf: https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Y-MTfOdCHDEJ:scholar.google.com/&output=citation&scisdr=CljAVzCgEMDG7CvOOZ4:AFyMTJUAAAAAaezIIZ6FFuUvmo6bMexC86Ode4Y&scisig=AFyMTJUAAAAAaezIIaUKR-SJsfutkJxAtiV8p5Y&scisf=4&ct=citation&cd=-1&hl=en
     image: ./assets/pub_img/SMHGC.png
 
   - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
