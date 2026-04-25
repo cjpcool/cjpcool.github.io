@@ -5,7 +5,7 @@ main:
     conference_short: ACL 2026
     # conference: The 64th Annual Meeting of the Association for Computational Linguistics: System Demostration<strong>(ACL Demo)</strong>, 2026
     pdf: 
-    # code: https://github.com/cjpcool/Metamaterial-Benchmark
+    code: 
     page: http://zhoulab-1.cs.vt.edu:5557
     image: ./assets/pub_img/PhyVer.png
     # notes: 
@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
-    bibtex: ./
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:VpeaM6WM-vgJ:scholar.google.com/&output=citation&scisdr=Cjz4C-CgEMDG7CvBaI8:ADi0EEUAAAAAaezHcI9YVsFY7lBKxYbLDReuywA&scisig=ADi0EEUAAAAAaezHcE8sC2ycYwnILdfCzYSUauI&scisf=4&ct=citation&cd=-1&hl=en
     image: ./assets/pub_img/MetamatBench.png
     # notes: 
 
