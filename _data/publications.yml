@@ -2,8 +2,8 @@ main:
 
   - title: "PhyVer: Physics-Grounded Material Claim Verification with Multi-Fidelity Physical Evidence"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
-    conference_short: ACL Demo 2026
-    conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demostration <strong>(ACL Demo)</strong>, 2026
+    conference_short: ACL 2026
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics System Demostration <strong>(ACL Demo)</strong>, 2026
     pdf: 
     code: 
     page: http://zhoulab-1.cs.vt.edu:5557/demo
@@ -12,7 +12,7 @@ main:
 
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
-    conference_short: KDD DB 2025
+    conference_short: KDD 2025
     conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD DB)</strong>, 2025
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
