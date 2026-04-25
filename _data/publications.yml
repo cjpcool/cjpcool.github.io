@@ -3,7 +3,7 @@ main:
   - title: "PhyVer: Physics-Grounded Material Claim Verification with Multi-Fidelity Physical Evidence"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
     conference_short: ACL Demo 2026
-    conference: The 64th Annual Meeting of the Association for Computational Linguistics: System Demostration <strong>(ACL Demo)</strong>, 2026
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demostration <strong>(ACL Demo)</strong>, 2026
     pdf: 
     code: 
     page: http://zhoulab-1.cs.vt.edu:5557
@@ -13,7 +13,7 @@ main:
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
     conference_short: KDD DB 2025
-    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining DB Track<strong>(KDD DB)</strong>, 2025
+    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining<strong>(KDD DB)</strong>, 2025
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
@@ -33,7 +33,7 @@ main:
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
     authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
     conference_short: NAACL Demo 2025
-    # conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics: System Demonstration Track <strong>(NAACL Demo)</strong>, 2025
+    # conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track <strong>(NAACL Demo)</strong>, 2025
     pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
     # code: 
     # page: http://zhoulab-1.cs.vt.edu:5557
