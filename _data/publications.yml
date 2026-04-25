@@ -6,7 +6,7 @@ main:
     conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demostration <strong>(ACL Demo)</strong>, 2026
     pdf: 
     code: 
-    page: http://zhoulab-1.cs.vt.edu:5557
+    page: http://zhoulab-1.cs.vt.edu:5557/demo
     image: ./assets/pub_img/PhyVer.png
     # notes: 
 
