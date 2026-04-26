@@ -3,7 +3,7 @@ main:
   - title: "PhyVer: Physics-Grounded Material Claim Verification with Multi-Fidelity Physical Evidence"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
     conference_short: ACL 2026
-    conference: The 64th Annual Meeting of the Association for Computational Linguistics System Demostration <strong>(ACL Demo)</strong>, 2026
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics System Demonstration, 2026
     pdf: 
     code: 
     page: http://zhoulab-1.cs.vt.edu:5557/demo
@@ -13,7 +13,7 @@ main:
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
     conference_short: KDD 2025
-    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD DB)</strong>, 2025
+    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2, 2025
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
@@ -24,7 +24,7 @@ main:
   - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
     authors: Wangzhi Zhan, <strong>Jianpeng Chen</strong>, Dongqi Fu, Dawei Zhou
     conference_short: ICML 2025
-    conference: Forty-second International Conference on Machine Learning <strong>(ICML)</strong>, 2025
+    conference: Forty-second International Conference on Machine Learning, 2025
     # pdf: ./
     code: https://github.com/wzhan24/UniMate
     # bibtex: ./
@@ -33,7 +33,7 @@ main:
   - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
     authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
     conference_short: NAACL 2025
-    # conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track <strong>(NAACL Demo)</strong>, 2025
+    conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track, 2025
     pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
     # code: 
     # page: http://zhoulab-1.cs.vt.edu:5557
@@ -44,7 +44,7 @@ main:
   - title: "Variational Graph Generator for Multi-View Graph Clustering"
     authors: <strong>Jianpeng Chen</strong>, Yawen Ling, Jie Xu, Yazhou Ren*, Shudong Huang, Xiaorong Pu, Zhifeng Hao, S Yu Philip, Lifang He
     conference_short: TNNLS
-    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>
+    conference: IEEE Transactions on Neural Networks and Learning Systems
     pdf: https://ieeexplore.ieee.org/document/10833915
     image: ./assets/pub_img/VGMGC.png
     bibtex: https://ieeexplore.ieee.org/document/10833915
@@ -53,12 +53,12 @@ main:
   # - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
   #   authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou
   #   conference_short: NeurIPS 2024
-  #   conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track <strong>(NeurIPS DB)</strong>, 2024
+  #   conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track, 2024
   #   pdf: https://openreview.net/pdf?id=plIuBfYpXj
   #   image: ./assets/pub_img/HeroLT.png
 
   - title: "SMHGC: Homophily-Agnostic Multi-View Heterophilous Graph Clustering"
-    authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He (<underline>Equal Contribution</underline>)
+    authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He
     conference_short: Pattern Rec.
     conference: Pattern Recognition
     pdf: https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333
@@ -75,7 +75,7 @@ main:
   - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
     authors: Yawen Ling, <strong>Jianpeng Chen (Equal Contribution)</strong>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
     conference_short: AAAI 2023
-    # conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023
+    # conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence, 2023
     pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
     notes: Oral Presentation
     image: ./assets/pub_img/DuaLGR.png
@@ -84,7 +84,7 @@ main:
   - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
     authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
     conference_short: ICONIP 2022
-    # conference: Proceedings of the 29th International Conference on Neural Information Processing <strong>(ICONIP)</strong>, 2022
+    # conference: Proceedings of the 29th International Conference on Neural Information Processing, 2022
     pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
     notes: LNCS AC=14.6%, Oral Presentation
     image: ./assets/pub_img/SAMGC.png
