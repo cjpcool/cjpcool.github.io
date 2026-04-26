@@ -3,7 +3,7 @@ main:
   - title: "PhyVer: Physics-Grounded Material Claim Verification with Multi-Fidelity Physical Evidence"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
     conference_short: ACL 2026
-    conference: The 64th Annual Meeting of the Association for Computational Linguistics System Demonstration, 2026
+    conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demonstration, 2026
     pdf: 
     code: 
     page: http://zhoulab-1.cs.vt.edu:5557/demo
@@ -13,7 +13,7 @@ main:
   - title: "MetamatBench: Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Zian Jia, Jingru Gan, Junkai Zhang, Jingyuan Qi, Tingwei Chen, Lifu Huang, Muhao Chen, Ling Li, Wei Wang, Dawei Zhou
     conference_short: KDD 2025
-    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2, 2025
+    conference: Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining D&B Track, 2025
     pdf: https://arxiv.org/abs/2505.20299
     code: https://github.com/cjpcool/Metamaterial-Benchmark
     page: http://zhoulab-1.cs.vt.edu:5550
@@ -53,7 +53,7 @@ main:
   # - title: "Towards Heterogeneous Long-tailed Learning: Benchmarking, Metrics, and Toolbox"
   #   authors: Haohui Wang, Weijie Guan, <strong>Jianpeng Chen</strong>, Zi Wang, Dawei Zhou
   #   conference_short: NeurIPS 2024
-  #   conference: Thirty-eighth Conference on Neural Information Processing Systems DB Track, 2024
+  #   conference: Thirty-eighth Conference on Neural Information Processing Systems D&B Track, 2024
   #   pdf: https://openreview.net/pdf?id=plIuBfYpXj
   #   image: ./assets/pub_img/HeroLT.png
 
