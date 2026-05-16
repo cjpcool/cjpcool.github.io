@@ -1,5 +1,15 @@
 main:
 
+  - title: "MetaSymbO: Multi-Agent Language-Guided Metamaterial Discovery via Symbolic Latent Evolution"
+    authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Dongqi Fu, Junkai Zhang, Zian Jia, Ling Li, Wei Wang, Dawei Zhou
+    conference_short: Preprint
+    conference: 
+    pdf: https://arxiv.org/pdf/2604.27300
+    code: 
+    page: 
+    image: ./assets/pub_img/MetaSymbO.png
+
+
   - title: "PhyVer: Physics-Grounded Material Claim Verification with Multi-Fidelity Physical Evidence"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
     conference_short: ACL 2026
