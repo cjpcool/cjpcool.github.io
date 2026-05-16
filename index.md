@@ -22,19 +22,19 @@ Some major results are as follows:
 {% endfor %}
 [Archived News →](/news/)
 
-
+<!--
 ## Experience 
  - **[May. 2026 - Aug. 2026]** PhD Intern \| [Google](https://www.google.com/) \| YouTuBe
  - **[Sep. 2023 - Dec. 2024]** Research Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| Physical Science
+-->
 
 ## Experience
-
-- **PhD Intern**, [Google](https://www.google.com/) · YouTube  
+- **[Google](https://www.google.com/)** \| PhD Intern \| YouTube
   *May 2026 – Aug. 2026*  
-  Focus on optimize large-scale model inference and training efficiency.
-- **Research Intern**, [Shanghai AI Laboratory](https://www.shlab.org.cn/) · Physical Science  
+  Focus on large-scale model inference and training efficiency.
+- **[Shanghai AI Laboratory](https://www.shlab.org.cn/)** \| Research Intern \| Physical Science  
   *Sep. 2023 – Dec. 2024*  
-  AI for Science, with a focus on scientific machine learning and physical science applications.
+  AI for Science, focus on scientific machine learning and physical science applications.
 
 {% include_relative _includes/publications.md %}
 
