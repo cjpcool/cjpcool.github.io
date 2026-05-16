@@ -23,11 +23,9 @@ Some major results are as follows:
 [Archived News →](/news/)
 
 
-<!--
 ## Experience 
- - **[May. 2026 - Aug. 2026]** Internship on Model inference efficiency \| [Google]() \| YouTuBe
+ - **[May. 2026 - Aug. 2026]** PhD Intern \| [Google](https://www.google.com/) \| YouTuBe
  - **[Sep. 2023 - Dec. 2024]** Research Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| Physical Science
--->
 
 ## Experience
 
