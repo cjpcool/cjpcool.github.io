@@ -17,24 +17,23 @@ Some major results are as follows:
 ## News
 
 {% assign news_items = site.data.news | %}
-{% for item in news_items limit:8 %}
+{% for item in news_items limit:5 %}
 - **[{{ item.display_date }}]** {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
 {% endfor %}
 [Archived News →](/news/)
 
 
-
+<!--
 ## Experience 
  - **[May. 2026 - Aug. 2026]** Internship on Model inference efficiency \| [Google]() \| YouTuBe
  - **[Sep. 2023 - Dec. 2024]** Research Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| Physical Science
-
+-->
 
 ## Experience
 
-- **PhD Research Intern**, [Google](https://www.google.com/) · YouTube  
+- **PhD Intern**, [Google](https://www.google.com/) · YouTube  
   *May 2026 – Aug. 2026*  
-  Model inference and training efficiency for large-scale recommendation systems.
-
+  Focus on optimize large-scale model inference and training efficiency.
 - **Research Intern**, [Shanghai AI Laboratory](https://www.shlab.org.cn/) · Physical Science  
   *Sep. 2023 – Dec. 2024*  
   AI for Science, with a focus on scientific machine learning and physical science applications.
