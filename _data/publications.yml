@@ -5,7 +5,7 @@ main:
     conference_short: ACL 2026
     conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demonstration, 2026
     pdf: 
-    code: 
+    code: https://github.com/cjpcool/PhyVer
     page: http://zhoulab-1.cs.vt.edu:5557/demo
     image: ./assets/pub_img/PhyVer.png
     # notes: 
@@ -30,15 +30,15 @@ main:
     # bibtex: ./
     image: ./assets/pub_img/UniMate.png
 
-  - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
-    authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
-    conference_short: NAACL 2025
-    conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track, 2025
-    pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
-    # code: 
-    # page: http://zhoulab-1.cs.vt.edu:5557
-    bibtex: https://aclanthology.org/2025.naacl-demo.34/
-    image: ./assets/pub_img/MetaScientist.png
+  # - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
+  #   authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
+  #   conference_short: NAACL 2025
+  #   conference: 2025 Annual Conference of the North American Chapter of the Association for Computational Linguistics -- System Demonstration Track, 2025
+  #   pdf: https://aclanthology.org/2025.naacl-demo.34.pdf
+  #   # code: 
+  #   # page: http://zhoulab-1.cs.vt.edu:5557
+  #   bibtex: https://aclanthology.org/2025.naacl-demo.34/
+  #   image: ./assets/pub_img/MetaScientist.png
     # notes: 
 
   - title: "Variational Graph Generator for Multi-View Graph Clustering"
@@ -58,7 +58,7 @@ main:
   #   image: ./assets/pub_img/HeroLT.png
 
   - title: "SMHGC: Homophily-Agnostic Multi-View Heterophilous Graph Clustering"
-    authors: <underline><strong>Jianpeng Chen</strong></underline>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He
+    authors: <strong>Jianpeng Chen</strong>, Yawen Ling (Equal Contribution), Yazhou Ren*, Zichen Wen, Tianyi Wu, Shufei Zhang, Lifang He
     conference_short: Pattern Rec.
     conference: Pattern Recognition
     pdf: https://www.sciencedirect.com/science/article/abs/pii/S0031320326006333
