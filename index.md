@@ -29,7 +29,7 @@ Some major results are as follows:
 -->
 
 ## Experience
-- [**Google**](https://www.google.com/) \| PhD Intern \| YouTube <span style="float: right;">*May 2026 – Aug. 2026*</span>  
+- [**Google**](https://www.google.com/) \| PhD Intern \| YouTuBe <span style="float: right;">*May 2026 – Aug. 2026*</span>  
   Optimizing large-scale model inference and training efficiency.
 - [**Shanghai AI Laboratory**](https://www.shlab.org.cn/) \| Research Intern \| Physical Science <span style="float: right;">*Sep. 2023 – Dec. 2024*</span>  
   AI for Science, with a focus on scientific machine learning and physical science applications.
