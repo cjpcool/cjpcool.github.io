@@ -40,14 +40,14 @@ main:
     image: ./assets/pub_img/MetamatBench.png
     # notes: 
 
-  - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
-    authors: Wangzhi Zhan, <strong>Jianpeng Chen</strong>, Dongqi Fu, Dawei Zhou
-    conference_short: ICML 2025
-    conference: Forty-second International Conference on Machine Learning, 2025
-    # pdf: ./
-    code: https://github.com/wzhan24/UniMate
-    # bibtex: ./
-    image: ./assets/pub_img/UniMate.png
+  # - title: "UniMate: A Unified Model for Mechanical Metamaterial Generation, Property Prediction, and Condition Confirmation"
+  #   authors: Wangzhi Zhan, <strong>Jianpeng Chen</strong>, Dongqi Fu, Dawei Zhou
+  #   conference_short: ICML 2025
+  #   conference: Forty-second International Conference on Machine Learning, 2025
+  #   # pdf: ./
+  #   code: https://github.com/wzhan24/UniMate
+  #   # bibtex: ./
+  #   image: ./assets/pub_img/UniMate.png
 
   # - title: "MetaScientist: A Human-AI Synergistic Framework for Automated Mechanical Metamaterial Design"
   #   authors: Jingyuan Qi, Zian Jia, Minqian Liu, Wangzhi Zhan, Junkai Zhang, Xiaofei Wen, Jingru Gan, <strong>Jianpeng Chen</strong>, Qin Liu, Mingyu Derek Ma, Bangzheng Li, Haohui Wang, Adithya Kulkarni, Muhao Chen, Dawei Zhou, Ling Li, Wei Wang, Lifu Huang
@@ -84,12 +84,12 @@ main:
     bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:Y-MTfOdCHDEJ:scholar.google.com/&output=citation&scisdr=CljAVzCgEMDG7CvOOZ4:AFyMTJUAAAAAaezIIZ6FFuUvmo6bMexC86Ode4Y&scisig=AFyMTJUAAAAAaezIIaUKR-SJsfutkJxAtiV8p5Y&scisf=4&ct=citation&cd=-1&hl=en
     image: ./assets/pub_img/SMHGC.png
 
-  - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
-    authors: Tingwei Chen, <strong>Jianpeng Chen (Equal Contribution)</strong>, Dawei Zhou
-    conference_short: IJCAI 2024
-    # conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track <strong>(IJCAI Demo)</strong>, 2024
-    pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
-    image: ./assets/pub_img/3D-FuM.png
+  # - title: "3D-FuM: Benchmarking 3D Molecule Learning with Functional Groups"
+  #   authors: Tingwei Chen, <strong>Jianpeng Chen (Equal Contribution)</strong>, Dawei Zhou
+  #   conference_short: IJCAI 2024
+  #   # conference: Proceedings of the 33rd International Joint Conference on Artificial Intelligence Demo Track <strong>(IJCAI Demo)</strong>, 2024
+  #   pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
+  #   image: ./assets/pub_img/3D-FuM.png
 
   - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
     authors: Yawen Ling, <strong>Jianpeng Chen (Equal Contribution)</strong>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
@@ -100,22 +100,22 @@ main:
     image: ./assets/pub_img/DuaLGR.png
     code: https://github.com/YwL-zhufeng/DuaLGR
 
-  - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
-    authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
-    conference_short: ICONIP 2022
-    # conference: Proceedings of the 29th International Conference on Neural Information Processing, 2022
-    pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
-    notes: LNCS AC=14.6%, Oral Presentation
-    image: ./assets/pub_img/SAMGC.png
-    bibtex: https://citation-needed.springer.com/v2/references/10.1007/978-3-031-30105-6_5?format=bibtex&flavour=citation
-    code: https://github.com/cjpcool/SAMGC
+  # - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
+  #   authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
+  #   conference_short: ICONIP 2022
+  #   # conference: Proceedings of the 29th International Conference on Neural Information Processing, 2022
+  #   pdf: https://link.springer.com/chapter/10.1007/978-3-031-30105-6_5
+  #   notes: LNCS AC=14.6%, Oral Presentation
+  #   image: ./assets/pub_img/SAMGC.png
+  #   bibtex: https://citation-needed.springer.com/v2/references/10.1007/978-3-031-30105-6_5?format=bibtex&flavour=citation
+  #   code: https://github.com/cjpcool/SAMGC
 
-  - title: "Customizing Graph Neural Network using Path Reweighting"
-    authors: <strong>Jianpeng Chen</strong>, Yujing Wang (Equal Contribution), Ming Zeng (Equal Contribution), Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
-    conference_short: INS
-    conference: Information Sciences
-    pdf: https://www.sciencedirect.com/science/article/pii/S0020025524005942
-    image: ./assets/pub_img/CustomGNN.png
-    code: https://github.com/cjpcool/CustomGNN
+  # - title: "Customizing Graph Neural Network using Path Reweighting"
+  #   authors: <strong>Jianpeng Chen</strong>, Yujing Wang (Equal Contribution), Ming Zeng (Equal Contribution), Zongyi Xiang, Bitan Hou, Yunhai Tong, Ole J Mengshoel, Yazhou Ren*
+  #   conference_short: INS
+  #   conference: Information Sciences
+  #   pdf: https://www.sciencedirect.com/science/article/pii/S0020025524005942
+  #   image: ./assets/pub_img/CustomGNN.png
+  #   code: https://github.com/cjpcool/CustomGNN
 
 
