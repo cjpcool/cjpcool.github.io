@@ -91,14 +91,14 @@ main:
   #   pdf: https://www.ijcai.org/proceedings/2024/0997.pdf
   #   image: ./assets/pub_img/3D-FuM.png
 
-  - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
-    authors: Yawen Ling, <strong>Jianpeng Chen (Equal Contribution)</strong>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
-    conference_short: AAAI 2023
-    # conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence, 2023
-    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
-    notes: Oral Presentation
-    image: ./assets/pub_img/DuaLGR.png
-    code: https://github.com/YwL-zhufeng/DuaLGR
+  # - title: "Dual Label-Guided Graph Refinement for Multi-View Graph Clustering"
+  #   authors: Yawen Ling, <strong>Jianpeng Chen (Equal Contribution)</strong>, Yazhou Ren*, Xiaorong Pu, Jie Xu, Xiaofeng Zhu, Lifang He
+  #   conference_short: AAAI 2023
+  #   # conference: Proceedings of the 37th AAAI Conference on Artificial Intelligence, 2023
+  #   pdf: https://ojs.aaai.org/index.php/AAAI/article/view/26057
+  #   notes: Oral Presentation
+  #   image: ./assets/pub_img/DuaLGR.png
+  #   code: https://github.com/YwL-zhufeng/DuaLGR
 
   # - title: "Shared-Attribute Multi-Graph Clustering with Global Self-Attention"
   #   authors: <strong>Jianpeng Chen</strong>, Zhimeng Yang, Xiaorong Pu, Yazhou Ren*, Li Gao, Lifang He
