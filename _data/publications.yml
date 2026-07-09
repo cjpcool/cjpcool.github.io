@@ -23,7 +23,7 @@ main:
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan (Equal Contribution), Haohui Wang, Brian Mayer, Dongqi Fu, Dawei Zhou
     conference_short: ACL 2026
     conference: The 64th Annual Meeting of the Association for Computational Linguistics -- System Demonstration, 2026
-    pdf: https://par.nsf.gov/servlets/purl/10685545
+    pdf: https://aclanthology.org/2026.acl-demo.54.pdf
     code: https://github.com/cjpcool/PhyVer
     page: http://zhoulab-1.cs.vt.edu:5557/demo
     image: ./assets/pub_img/PhyVer.png
