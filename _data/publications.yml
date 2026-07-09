@@ -2,10 +2,10 @@ main:
 
   - title: "MetaSymbO: Multi-Agent Language-Guided Metamaterial Discovery via Symbolic Latent Evolution"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Dongqi Fu, Junkai Zhang, Zian Jia, Ling Li, Wei Wang, Dawei Zhou
-    conference_short: Preprint
-    conference: 
+    conference_short: COLM 2026
+    conference: Third Conference on Language Modeling
     pdf: https://arxiv.org/pdf/2604.27300
-    code: 
+    code: https://github.com/cjpcool/MetaSymbO
     page: 
     image: ./assets/pub_img/MetaSymbO.png
 
