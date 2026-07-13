@@ -1,4 +1,4 @@
-# Basic Information 
+# Basic Information
 title: Jianpeng Chen
 position: Ph.D. student
 affiliation: Virginia Tech
@@ -7,11 +7,10 @@ email: jianpengc[at]vt[dot]edu
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Jianpeng Chen
-canonical: https://sanghani.cs.vt.edu/people/our-team/students/jianpeng-chen.html
-description: Jianpeng Chen is currently a PhD student at Virginia Tech. His research focuses on machine learning, data mining, and their applications on scientific domains.
+canonical: https://cjpcool.github.io/
+description: Jianpeng Chen is a PhD student at Virginia Tech working on efficient foundation models, agentic AI, multimodal graph learning, and AI for Science.
 
-
-# Links 
+# Links
 # If you don't need one of them, you may delete the corresponding line.
 # cv_link: assets/files/curriculum_vitae.pdf
 google_scholar: https://scholar.google.com/citations?user=9RgIQ50AAAAJ
@@ -19,8 +18,8 @@ github_link: https://github.com/cjpcool
 linkedin: https://www.linkedin.com/in/jianpengc
 # twitter: https://twitter.com/
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# Images (e.g., your profile picture and your website's favicon)
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
 avatar: ./assets/img/Jianpengc.jpg
 favicon: ./assets/img/Vertical_VT_Full_Color_RGB.png
 favicon_dark: ./assets/img/Vertical_VT_Gray_RGB.png
@@ -38,9 +37,7 @@ auto_dark_mode: true
 font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: 9RgIQ50AAAAJ
-github_link: https://github.com/cjpcool
+# google_analytics:
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

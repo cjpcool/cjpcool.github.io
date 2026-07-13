@@ -4,39 +4,70 @@ layout: homepage
 
 ## About Me
 
-I am currently a Ph.D. student in the Department of Computer Science at [Virginia Tech](https://cs.vt.edu/) since Aug. 2023, where I am advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab).
-During my M.S. degree at University of Electronic Science and Technology of China (UESTC), I was fortunately advised by [Prof. Yazhou Ren](https://yazhou-ren.github.io/) and [Prof. Lifang He](https://engineering.lehigh.edu/faculty/lifang-he) on the topic of multi-view/graph self-supervised learning.
+I am a Ph.D. student in Computer Science at [Virginia Tech](https://cs.vt.edu/), advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in the [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). My research develops efficient, data-aware foundation models and agentic AI systems, with a particular interest in long-context modeling, adaptive data selection, multimodal reasoning, and scientific discovery.
 
-Generally, my research lies in **data mining** and **machine learning**, with a particular focus on self-/un-supervised **multi-modal/view/graph learning**. and **Agentic LLMs**. I also seek to apply my research to scientific domains, such as 3D graph modeling of **metamaterials** and **molecules**, contributing to the broader community of **AI for science**. *To date, my work has led to multiple publications in top-tier venues, including KDD, AAAI, TNNLS, ICML, NAACL, etc., spanning machine learning, language models, and scientific discovery.*
-Some major results are as follows:
-* **Agentic LLMs** (Preprints'25: LinguaMate, ChemBOMAS) paves the way for collaboration between knowledge-driven agents and data-driven agents by exploring symbolic-driven latent optimization and finetuned LLM with Bayesian optimization.
-* **Multi-view/modal learning** (ICML'25, AAAI'23, AAAI'24, ICONIP'22) studies unsupervised multi-view/modal alignment and collaboration mechanisms for clustering and generative tasks.
-* **Graph learning/generation** (INS'24, TNNLS'25) develops methods for graph semantic extraction and specification-aware variational inference for graph generation.
-* **Applications on Molecular and Material Science** (KDD'25, ICML'25, IJCAI'24) investigates how the advanced LLMs and generative models can be integrated with domain-specific knowledge for molecule and material modeling.
-  
+I build learning systems that connect graph and multimodal representation learning, generative modeling, and physics-grounded agents for materials and molecular science. My work has appeared at COLM, KDD, ACL, ICML, NAACL, AAAI, and TNNLS. In Summer 2026, I am a PhD SWE+ Intern at [Google](https://www.google.com/), working on training and inference efficiency for large-scale recommendation models.
+
+<div class="pillar-grid">
+  <div class="pillar-card">
+    <span>01</span>
+    <strong>Efficient Foundation Models</strong>
+    <p>Long-context modeling, adaptive token/state selection, data-efficient training, and quality-efficiency tradeoffs.</p>
+  </div>
+  <div class="pillar-card">
+    <span>02</span>
+    <strong>Agentic AI for Science</strong>
+    <p>LLM agents, symbolic latent optimization, physics-grounded verification, and scientific reasoning workflows.</p>
+  </div>
+  <div class="pillar-card">
+    <span>03</span>
+    <strong>Multimodal Graph Learning</strong>
+    <p>Representation learning and generative modeling for multi-view graphs, metamaterials, and molecular structures.</p>
+  </div>
+</div>
+
 ## News
 
+<div class="news-list">
 {% assign news_items = site.data.news | %}
 {% for item in news_items limit:5 %}
-- **[{{ item.display_date }}]** {{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}
+  <div class="news-item">
+    <time>{{ item.display_date }}</time>
+    <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  </div>
 {% endfor %}
-[Archived News →](/news/)
+</div>
+
+[Archived News ->](/news/){:.archive-link}
 
 <!--
-## Experience 
- - **[May. 2026 - Aug. 2026]** PhD Intern \| [Google](https://www.google.com/) \| YouTuBe
+## Experience
+ - **[May. 2026 - Aug. 2026]** PhD Intern \| [Google](https://www.google.com/) \| YouTube
  - **[Sep. 2023 - Dec. 2024]** Research Intern \| [Shanghai AI Lab](https://www.shlab.org.cn/) \| Physical Science
 -->
 
 ## Experience
-- [**Google**](https://www.google.com/) \| PhD SWE+ Intern \| YouTuBe <span style="float: right;">*May 2026 – Aug. 2026*</span>  
-  Optimizing large-scale model inference and training efficiency.
-- [**Shanghai AI Laboratory**](https://www.shlab.org.cn/) \| Research Intern \| Physical Science <span style="float: right;">*Sep. 2023 – Dec. 2024*</span>  
-  AI for Science, with a focus on scientific machine learning and physical science applications.
 
+<div class="experience-list">
+  <div class="experience-item">
+    <div>
+      <strong><a href="https://www.google.com/">Google</a></strong>
+      <p>PhD SWE+ Intern, YouTube Shorts Ranking</p>
+    </div>
+    <time>May 2026 - Aug. 2026</time>
+    <p>Optimizing training and inference efficiency for large-scale recommendation models.</p>
+  </div>
+  <div class="experience-item">
+    <div>
+      <strong><a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a></strong>
+      <p>Research Intern, Physical Science</p>
+    </div>
+    <time>Sep. 2023 - Dec. 2024</time>
+    <p>Developed AI for Science methods for scientific machine learning and physical science applications.</p>
+  </div>
+</div>
 
 {% include_relative _includes/publications.md %}
-
 
 ## Talks
 - Accepted Talk (Integrating Heterogeneous Data, Computational Tools, and Visual Interface for Metamaterial Discovery) at **Towards Agentic AI for Science, AAAI Spring Symposia 2025**
@@ -45,7 +76,7 @@ Some major results are as follows:
 
 ---
 <div style="width:300px; max-width:100%;">
-<script type="text/javascript" id="clustrmaps" 
+<script type="text/javascript" id="clustrmaps"
         src="//clustrmaps.com/map_v2.js?d=STUe-Dr80qV_XZa9IGl3qynH3BoXdUUmmQVd9mkim3M&cl=ffffff&w=a">
 </script>
 </div>
