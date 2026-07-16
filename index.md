@@ -28,17 +28,14 @@ I build learning systems that connect graph and multimodal representation learni
 
 ## News
 
-<div class="news-list">
-{% assign news_items = site.data.news | %}
-{% for item in news_items limit:5 %}
+<div class="news-list" tabindex="0" aria-label="All news">
+{% for item in site.data.news %}
   <div class="news-item">
     <time>{{ item.display_date }}</time>
     <p>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   </div>
 {% endfor %}
 </div>
-
-[Archived News ->](/news/){:.archive-link}
 
 <!--
 ## Experience
