@@ -765,6 +765,34 @@ position, email, autocolor {
   margin-bottom: 12px;
 }
 
+.news-list {
+  max-height: 430px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 8px;
+  scrollbar-color: var(--accent) var(--badge-bg);
+  scrollbar-width: thin;
+}
+
+.news-list:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-list::-webkit-scrollbar-track {
+  background: var(--badge-bg);
+  border-radius: 8px;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 8px;
+}
+
 .news-item {
   display: grid;
   grid-template-columns: 110px minmax(0, 1fr);
@@ -778,12 +806,6 @@ position, email, autocolor {
   color: var(--accent);
   font-size: 13px;
   font-weight: 700;
-}
-
-.archive-link {
-  display: inline-block;
-  margin-top: 4px;
-  font-weight: 650;
 }
 
 .experience-item {
