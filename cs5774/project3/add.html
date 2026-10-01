@@ -4,97 +4,159 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Add sheet music | GuitarShelf</title>
+        <meta
+            name="description"
+            content="Real classical guitar scores, listening examples, and a simple practice library."
+        />
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
         <link rel="stylesheet" href="styles.css" />
-        <!-- Local jQuery is the only application library; defer preserves script order. -->
+        <!-- jQuery is the only runtime library. External defer scripts run in order. -->
         <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
         <script src="js/app.js" defer></script>
     </head>
     <body>
         <a class="skip-link" href="#main">Skip to content</a>
-        <header>
-            <div class="site-header">
-                <div class="topbar">
-                    <a class="brand" href="index.html">GuitarShelf</a>
-                    <!-- GET sends a shareable keyphrase to the separate results page. -->
-                    <form class="site-search" action="search.html" method="get" role="search">
-                        <label for="site-q">Search sheet music</label>
-                        <input
+        <header class="site-header">
+            <div class="container">
+                <div class="header-top">
+                    <a class="brand" href="index.html"
+                        >GuitarShelf<span class="brand-dot">.</span></a
+                    >
+                    <!-- GET submits q to the separate simulated results page. -->
+                    <form
+                        class="header-search site-search"
+                        action="search.html"
+                        method="get"
+                        role="search"
+                    >
+                        <label class="visually-hidden" for="site-q">Search sheet music</label
+                        ><input
                             id="site-q"
-                            name="q"
                             type="search"
-                            placeholder="Try fingerstyle"
+                            name="q"
                             maxlength="120"
-                        />
-                        <button type="submit">Search</button>
+                            placeholder="Try fingerstyle"
+                        /><button class="button" type="submit">Search</button>
                     </form>
-                    <span class="meta">Demo workspace</span>
+                    <span class="account-label">Uploader: <strong>jianpengc</strong></span>
                 </div>
-                <nav class="primary" aria-label="Primary navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="browse.html">Browse sheet music</a></li>
-                        <li><a href="library.html">My library</a></li>
-                        <li><a href="add.html" aria-current="page">Add sheet music</a></li>
-                    </ul>
+                <nav class="primary-nav" aria-label="Primary navigation">
+                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
+                    ><a href="library.html">My library</a
+                    ><a href="add.html" aria-current="page">Add sheet music</a>
                 </nav>
             </div>
         </header>
-        <main id="main">
+        <main class="container" id="main">
             <noscript
-                ><p class="status">
-                    Enable JavaScript to search, save pieces, and change practice status.
+                ><p class="notice">
+                    Enable JavaScript to search, save pieces, and track practice. The browse page
+                    still links to each score.
                 </p></noscript
             >
-
-            <h1>Add sheet music</h1>
-            <p class="lead">
-                Preview a new entry. Fields marked * are required. This demo does not upload files.
+            <div class="page-heading">
+                <p class="eyebrow">Share a practice idea</p>
+                <h1>Add sheet music</h1>
+                <p>Describe a score and preview your entry. Fields marked * are required.</p>
+            </div>
+            <p class="notice small entry-width">
+                Uploader: jianpengc · This prototype previews entries locally. It does not publish
+                or upload files.
             </p>
-            <form id="add-form" class="entry-form">
+            <form id="add-form" class="entry-form entry-width">
                 <div class="field">
                     <label for="piece-title">Title *</label
-                    ><input id="piece-title" type="text" name="title" maxlength="100" required />
+                    ><input
+                        id="piece-title"
+                        name="title"
+                        type="text"
+                        maxlength="100"
+                        required
+                        placeholder="For example, Andante in G"
+                    />
                 </div>
-                <div class="field">
-                    <label for="piece-composer">Composer or creator</label
-                    ><input id="piece-composer" type="text" name="composer" maxlength="100" />
-                </div>
-                <div class="field">
-                    <label for="piece-difficulty">Difficulty *</label
-                    ><select id="piece-difficulty" name="difficulty" required>
-                        <option value="">Choose difficulty</option>
-                        <option>Beginner</option>
-                        <option>Intermediate</option>
-                        <option>Advanced</option>
-                    </select>
+                <div class="form-row">
+                    <div class="field">
+                        <label for="piece-composer">Composer or creator</label
+                        ><input id="piece-composer" name="composer" type="text" maxlength="100" />
+                    </div>
+                    <div class="field">
+                        <label for="piece-difficulty">Practice level *</label
+                        ><select id="piece-difficulty" name="difficulty" required>
+                            <option value="">Choose a level</option>
+                            <option>Beginner</option>
+                            <option>Intermediate</option>
+                            <option>Advanced</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="field">
                     <label for="piece-description">Description *</label
                     ><textarea
                         id="piece-description"
                         name="description"
-                        rows="3"
+                        rows="4"
                         maxlength="600"
                         required
+                        placeholder="What does this piece help you practice?"
                     ></textarea>
                 </div>
-                <div class="actions">
-                    <button type="submit">Preview entry</button><a href="library.html">Cancel</a>
+                <div class="form-row">
+                    <div class="field">
+                        <label for="piece-file">Sheet music file (optional)</label
+                        ><input
+                            id="piece-file"
+                            name="score"
+                            type="file"
+                            accept=".pdf,.png,.jpg,.jpeg"
+                        />
+                        <p class="small">PDF, PNG or JPG. The preview shows the filename only.</p>
+                    </div>
+                    <div class="field">
+                        <label for="demo-url">Recording URL (optional)</label
+                        ><input
+                            id="demo-url"
+                            name="recording"
+                            type="url"
+                            placeholder="https://example.com/recording"
+                        />
+                    </div>
+                </div>
+                <fieldset>
+                    <legend>Visibility preference</legend>
+                    <label class="radio-label"
+                        ><input type="radio" name="visibility" value="Public" checked />
+                        Public</label
+                    ><label class="radio-label"
+                        ><input type="radio" name="visibility" value="Private" /> Private</label
+                    >
+                    <p class="small">
+                        Shown in the preview; this demo does not publish either choice.
+                    </p>
+                </fieldset>
+                <div class="card-actions form-actions">
+                    <button class="button" type="submit">Preview entry</button
+                    ><a class="button secondary" href="library.html">Cancel</a>
                 </div>
             </form>
-            <section class="entry-preview section-rule" aria-labelledby="preview-heading">
+            <section class="entry-preview entry-width" aria-labelledby="preview-heading" hidden>
+                <p class="eyebrow">Before you share</p>
                 <h2 id="preview-heading">Entry preview</h2>
-                <h3 id="preview-title">Your title will appear here</h3>
-                <p id="preview-meta"></p>
+                <h3 id="preview-title"></h3>
+                <p class="byline" id="preview-meta"></p>
                 <p id="preview-description"></p>
+                <p class="small" id="preview-file"></p>
+                <p class="small" id="preview-recording"></p>
                 <div id="form-status" aria-live="polite"></div>
             </section>
         </main>
-        <footer>
-            <div class="footer-inner">
-                <p>© 2026 GuitarShelf · Course prototype</p>
-                <p>Jianpeng Chen · CS 5774 Project 3</p>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>GuitarShelf · CS 5774 Project 3 · Jianpeng Chen</p>
+                <p>
+                    Curated by jianpengc ·
+                    <a href="assets/credits.txt">Music &amp; asset credits</a>
+                </p>
             </div>
         </footer>
     </body>

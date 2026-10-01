@@ -4,74 +4,206 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Sheet music | GuitarShelf</title>
+        <meta
+            name="description"
+            content="Real classical guitar scores, listening examples, and a simple practice library."
+        />
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
         <link rel="stylesheet" href="styles.css" />
-        <!-- Local jQuery is the only application library; defer preserves script order. -->
+        <!-- jQuery is the only runtime library. External defer scripts run in order. -->
         <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
         <script src="js/app.js" defer></script>
     </head>
     <body>
         <a class="skip-link" href="#main">Skip to content</a>
-        <header>
-            <div class="site-header">
-                <div class="topbar">
-                    <a class="brand" href="index.html">GuitarShelf</a>
-                    <!-- GET sends a shareable keyphrase to the separate results page. -->
-                    <form class="site-search" action="search.html" method="get" role="search">
-                        <label for="site-q">Search sheet music</label>
-                        <input
+        <header class="site-header">
+            <div class="container">
+                <div class="header-top">
+                    <a class="brand" href="index.html"
+                        >GuitarShelf<span class="brand-dot">.</span></a
+                    >
+                    <!-- GET submits q to the separate simulated results page. -->
+                    <form
+                        class="header-search site-search"
+                        action="search.html"
+                        method="get"
+                        role="search"
+                    >
+                        <label class="visually-hidden" for="site-q">Search sheet music</label
+                        ><input
                             id="site-q"
-                            name="q"
                             type="search"
-                            placeholder="Try fingerstyle"
+                            name="q"
                             maxlength="120"
-                        />
-                        <button type="submit">Search</button>
+                            placeholder="Try fingerstyle"
+                        /><button class="button" type="submit">Search</button>
                     </form>
-                    <a href="library.html">Demo library</a>
+                    <span class="account-label">Uploader: <strong>jianpengc</strong></span>
                 </div>
-                <nav class="primary" aria-label="Primary navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="browse.html">Browse sheet music</a></li>
-                    </ul>
+                <nav class="primary-nav" aria-label="Primary navigation">
+                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
+                    ><a href="library.html">My library</a><a href="add.html">Add sheet music</a>
                 </nav>
             </div>
         </header>
-        <main id="main">
+        <main class="container" id="main">
             <noscript
-                ><p class="status">
-                    Enable JavaScript to search, save pieces, and change practice status.
+                ><p class="notice">
+                    Enable JavaScript to search, save pieces, and track practice. The browse page
+                    still links to each score.
                 </p></noscript
             >
-
-            <p class="breadcrumb"><a id="back-results" href="browse.html">← Back to results</a></p>
-            <article class="sheet-card detail" id="piece-detail" data-sheet-id="evening">
-                <h1 id="detail-title">Evening Arpeggios</h1>
-                <p id="detail-meta" class="meta">Intermediate · Anonymous study</p>
-                <p id="detail-description">
-                    A calm E minor arpeggio study for building right-hand control and steady timing.
-                </p>
-                <button class="save-button" type="button" aria-pressed="false">
-                    Save to library
-                </button>
-                <div class="card-notices" aria-live="polite"></div>
-                <section aria-labelledby="preview-title">
-                    <h2 id="preview-title">Sheet music preview</h2>
-                    <!-- Original sheet music artwork from Project 2. -->
-                    <img
-                        id="detail-image"
-                        class="sheet-preview"
-                        src="assets/score-evening.svg"
-                        alt="Evening Arpeggios sheet music preview"
-                    />
-                </section>
+            <a class="back-link" id="back-results" href="browse.html">← Back to results</a>
+            <article class="sheet-card detail-card" id="piece-detail" data-sheet-id="carcassi">
+                <div class="detail-layout">
+                    <section>
+                        <p class="eyebrow" id="detail-focus">Scale fluency</p>
+                        <h1 id="detail-title">Etude No. 1</h1>
+                        <p class="byline" id="detail-meta">Matteo Carcassi · Op. 60 No. 1</p>
+                        <p id="detail-description">
+                            An energetic solo-guitar study with flowing eighth-note scales and a
+                            sustained bass line. Practice even finger alternation while keeping the
+                            bass audible.
+                        </p>
+                        <section class="score-panel" aria-labelledby="preview-title">
+                            <div class="section-heading">
+                                <h2 id="preview-title">Sheet music</h2>
+                                <span class="small">Complete score · 1 page</span>
+                            </div>
+                            <!-- Carcassi score/preview: Mutopia id=13, Jeff Covey, public domain. Other editions: assets/credits.txt. -->
+                            <a
+                                id="score-image-link"
+                                href="assets/scores/carcassi.pdf"
+                                aria-label="Open the full PDF score"
+                                ><img
+                                    id="detail-image"
+                                    src="assets/previews/carcassi.png"
+                                    alt="Complete first page of Carcassi’s Etude No. 1, Op. 60" /></a
+                            ><a
+                                class="button secondary"
+                                id="score-download"
+                                href="assets/scores/carcassi.pdf"
+                                download
+                                >Download PDF score</a
+                            >
+                        </section>
+                        <section class="practice-tip" aria-labelledby="notes-title">
+                            <p class="eyebrow">At your music stand</p>
+                            <h2 id="notes-title">Practice notes</h2>
+                            <p id="detail-tip">
+                                Work on four measures at a time. Keep the moving scale even, then
+                                bring out the bass without rushing.
+                            </p>
+                            <form id="note-form">
+                                <label for="practice-comment">Add your own note</label
+                                ><textarea
+                                    id="practice-comment"
+                                    rows="3"
+                                    maxlength="600"
+                                    required
+                                    placeholder="A passage to revisit, a fingering to try…"
+                                ></textarea>
+                                <p class="small">Your notes stay on this page until you leave.</p>
+                                <button class="button secondary" type="submit">Add note</button>
+                            </form>
+                            <div id="personal-notes" aria-live="polite"></div>
+                        </section>
+                    </section>
+                    <aside class="detail-sidebar">
+                        <section class="side-panel">
+                            <h2>Piece details</h2>
+                            <dl>
+                                <dt>Composer</dt>
+                                <dd id="detail-composer">Matteo Carcassi (1792–1853)</dd>
+                                <dt>Work</dt>
+                                <dd id="detail-opus">Op. 60 No. 1</dd>
+                                <dt>Practice level</dt>
+                                <dd id="detail-difficulty">Intermediate</dd>
+                                <dt>Key / meter</dt>
+                                <dd id="detail-key">C major · 4/4</dd>
+                                <dt>Tempo marking</dt>
+                                <dd id="detail-tempo">Allegro</dd>
+                                <dt>Instrument</dt>
+                                <dd>Solo guitar</dd>
+                                <dt>Score length</dt>
+                                <dd>1 page</dd>
+                                <dt>Uploader</dt>
+                                <dd>jianpengc</dd>
+                            </dl>
+                            <button class="button save-button" type="button" aria-pressed="false">
+                                Save to library
+                            </button>
+                            <div class="card-notices" aria-live="polite"></div>
+                            <p class="small section-note">Level is an editorial estimate.</p>
+                        </section>
+                        <section class="side-panel">
+                            <h2>Listen to the piece</h2>
+                            <p class="small" id="audio-label">Guitar performance · Jujutacular</p>
+                            <!-- Original audio: Wikimedia Commons File:Carcassi_Op_60_No_1.ogg, Jujutacular, CC BY-SA 3.0. Sor playback: Mutopia, Mark Van den Borre. -->
+                            <audio
+                                id="piece-audio"
+                                controls
+                                preload="metadata"
+                                aria-label="Listen to this piece"
+                                src="assets/audio/carcassi.ogg"
+                            >
+                                Your browser does not support audio.
+                            </audio>
+                            <p class="small audio-credit">
+                                <a
+                                    id="audio-source"
+                                    href="https://commons.wikimedia.org/wiki/File:Carcassi_Op_60_No_1.ogg"
+                                    >Audio source</a
+                                >
+                                ·
+                                <a
+                                    id="audio-license"
+                                    href="https://creativecommons.org/licenses/by-sa/3.0/"
+                                    >CC BY-SA 3.0</a
+                                >
+                            </p>
+                            <p class="small">
+                                Use the recording to hear the phrasing; choose a slower pace when
+                                learning.
+                            </p>
+                        </section>
+                        <section class="side-panel">
+                            <h2>About this edition</h2>
+                            <p id="detail-history">
+                                19th-century composition; the historical source edition is
+                                unspecified by Mutopia.
+                            </p>
+                            <p class="small" id="edition-credit">
+                                Typeset by Jeff Covey for the Mutopia Project.
+                            </p>
+                            <p class="small">
+                                <a
+                                    id="edition-source"
+                                    href="https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13"
+                                    >View the source edition</a
+                                >
+                                ·
+                                <a
+                                    id="edition-license"
+                                    href="https://www.mutopiaproject.org/legal.html"
+                                    >Public domain</a
+                                >
+                            </p>
+                            <p class="small">
+                                PDF and audio are unchanged. Preview is a PNG rendering of the PDF.
+                            </p>
+                        </section>
+                    </aside>
+                </div>
             </article>
         </main>
-        <footer>
-            <div class="footer-inner">
-                <p>© 2026 GuitarShelf · Course prototype</p>
-                <p>Jianpeng Chen · CS 5774 Project 3</p>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>GuitarShelf · CS 5774 Project 3 · Jianpeng Chen</p>
+                <p>
+                    Curated by jianpengc ·
+                    <a href="assets/credits.txt">Music &amp; asset credits</a>
+                </p>
             </div>
         </footer>
     </body>

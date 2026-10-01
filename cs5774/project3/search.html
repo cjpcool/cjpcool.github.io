@@ -4,82 +4,106 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Search results | GuitarShelf</title>
+        <meta
+            name="description"
+            content="Real classical guitar scores, listening examples, and a simple practice library."
+        />
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
         <link rel="stylesheet" href="styles.css" />
-        <!-- Local jQuery is the only application library; defer preserves script order. -->
+        <!-- jQuery is the only runtime library. External defer scripts run in order. -->
         <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
         <script src="js/app.js" defer></script>
     </head>
     <body>
         <a class="skip-link" href="#main">Skip to content</a>
-        <header>
-            <div class="site-header">
-                <div class="topbar">
-                    <a class="brand" href="index.html">GuitarShelf</a>
-                    <!-- GET sends a shareable keyphrase to the separate results page. -->
-                    <form class="site-search" action="search.html" method="get" role="search">
-                        <label for="site-q">Search sheet music</label>
-                        <input
+        <header class="site-header">
+            <div class="container">
+                <div class="header-top">
+                    <a class="brand" href="index.html"
+                        >GuitarShelf<span class="brand-dot">.</span></a
+                    >
+                    <!-- GET submits q to the separate simulated results page. -->
+                    <form
+                        class="header-search site-search"
+                        action="search.html"
+                        method="get"
+                        role="search"
+                    >
+                        <label class="visually-hidden" for="site-q">Search sheet music</label
+                        ><input
                             id="site-q"
-                            name="q"
                             type="search"
-                            placeholder="Try fingerstyle"
+                            name="q"
                             maxlength="120"
-                        />
-                        <button type="submit">Search</button>
+                            placeholder="Try fingerstyle"
+                        /><button class="button" type="submit">Search</button>
                     </form>
-                    <a href="library.html">Demo library</a>
+                    <span class="account-label">Uploader: <strong>jianpengc</strong></span>
                 </div>
-                <nav class="primary" aria-label="Primary navigation">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="browse.html">Browse sheet music</a></li>
-                    </ul>
+                <nav class="primary-nav" aria-label="Primary navigation">
+                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
+                    ><a href="library.html">My library</a><a href="add.html">Add sheet music</a>
                 </nav>
             </div>
         </header>
-        <main id="main">
+        <main class="container" id="main">
             <noscript
-                ><p class="status">
-                    Enable JavaScript to search, save pieces, and change practice status.
+                ><p class="notice">
+                    Enable JavaScript to search, save pieces, and track practice. The browse page
+                    still links to each score.
                 </p></noscript
             >
-
-            <h1>Search results</h1>
-            <p id="search-summary" role="status">Preparing results…</p>
+            <div class="page-heading">
+                <p class="eyebrow">Simulated search</p>
+                <h1>Search results</h1>
+                <p id="search-summary" role="status">Preparing results…</p>
+            </div>
             <section aria-labelledby="results-title">
-                <h2 id="results-title">Matching sheet music</h2>
-                <div class="card-grid" id="search-results"></div>
+                <div class="section-heading">
+                    <h2 id="results-title">Matching sheet music</h2>
+                    <a class="text-link" href="browse.html">Browse all pieces →</a>
+                </div>
+                <div class="sheet-grid home-grid" id="search-results"></div>
             </section>
-            <template id="piece-template">
-                <article class="sheet-card card">
+            <template id="piece-template"
+                ><article class="sheet-card">
+                    <!-- Previews are rendered from the credited Mutopia PDFs. See assets/credits.txt. -->
                     <img alt="" />
-                    <h3 class="piece-title"></h3>
-                    <p class="meta"></p>
-                    <p class="piece-description"></p>
-                    <div class="actions">
-                        <a class="open-link">Open sheet music</a
-                        ><button class="save-button secondary" type="button" aria-pressed="false">
-                            Save to library
-                        </button>
-                    </div>
-                    <div class="practice-controls">
-                        <label>Practice status</label
-                        ><select class="practice-select">
-                            <option value="planned">To practice</option>
-                            <option value="practicing">Practicing</option>
-                            <option value="learned">Learned</option>
-                        </select>
-                        <p class="practice-badge">To practice</p>
-                    </div>
-                    <div class="card-notices" aria-live="polite"></div>
-                </article>
-            </template>
+                    <div class="card-copy">
+                        <p class="eyebrow piece-focus"></p>
+                        <h3 class="piece-title"></h3>
+                        <p class="byline meta"></p>
+                        <p class="piece-description"></p>
+                        <div class="card-actions">
+                            <a class="open-link text-link">Open sheet music</a
+                            ><button
+                                class="button secondary save-button"
+                                type="button"
+                                aria-pressed="false"
+                            >
+                                Save to library
+                            </button>
+                        </div>
+                        <div class="practice-controls">
+                            <label>Practice status</label
+                            ><select class="practice-select">
+                                <option value="planned">To practice</option>
+                                <option value="practicing">Practicing</option>
+                                <option value="learned">Learned</option>
+                            </select>
+                            <p class="practice-badge">To practice</p>
+                        </div>
+                        <div class="card-notices" aria-live="polite"></div>
+                    </div></article
+            ></template>
         </main>
-        <footer>
-            <div class="footer-inner">
-                <p>© 2026 GuitarShelf · Course prototype</p>
-                <p>Jianpeng Chen · CS 5774 Project 3</p>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>GuitarShelf · CS 5774 Project 3 · Jianpeng Chen</p>
+                <p>
+                    Curated by jianpengc ·
+                    <a href="assets/credits.txt">Music &amp; asset credits</a>
+                </p>
             </div>
         </footer>
     </body>

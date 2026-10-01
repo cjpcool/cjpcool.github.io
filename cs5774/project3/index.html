@@ -4,107 +4,202 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Home | GuitarShelf</title>
+        <meta
+            name="description"
+            content="Real classical guitar scores, listening examples, and a simple practice library."
+        />
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
         <link rel="stylesheet" href="styles.css" />
-        <!-- Local jQuery is the only application library; defer preserves script order. -->
+        <!-- jQuery is the only runtime library. External defer scripts run in order. -->
         <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
         <script src="js/app.js" defer></script>
     </head>
     <body>
         <a class="skip-link" href="#main">Skip to content</a>
-        <header>
-            <div class="site-header">
-                <div class="topbar">
-                    <a class="brand" href="index.html">GuitarShelf</a>
-                    <!-- GET sends a shareable keyphrase to the separate results page. -->
-                    <form class="site-search" action="search.html" method="get" role="search">
-                        <label for="site-q">Search sheet music</label>
-                        <input
+        <header class="site-header">
+            <div class="container">
+                <div class="header-top">
+                    <a class="brand" href="index.html"
+                        >GuitarShelf<span class="brand-dot">.</span></a
+                    >
+                    <!-- GET submits q to the separate simulated results page. -->
+                    <form
+                        class="header-search site-search"
+                        action="search.html"
+                        method="get"
+                        role="search"
+                    >
+                        <label class="visually-hidden" for="site-q">Search sheet music</label
+                        ><input
                             id="site-q"
-                            name="q"
                             type="search"
-                            placeholder="Try fingerstyle"
+                            name="q"
                             maxlength="120"
-                        />
-                        <button type="submit">Search</button>
+                            placeholder="Try fingerstyle"
+                        /><button class="button" type="submit">Search</button>
                     </form>
-                    <a href="library.html">Demo library</a>
+                    <span class="account-label">Uploader: <strong>jianpengc</strong></span>
                 </div>
-                <nav class="primary" aria-label="Primary navigation">
-                    <ul>
-                        <li><a href="index.html" aria-current="page">Home</a></li>
-                        <li><a href="browse.html">Browse sheet music</a></li>
-                    </ul>
+                <nav class="primary-nav" aria-label="Primary navigation">
+                    <a href="index.html" aria-current="page">Home</a
+                    ><a href="browse.html">Browse sheet music</a
+                    ><a href="library.html">My library</a><a href="add.html">Add sheet music</a>
                 </nav>
             </div>
         </header>
-        <main id="main">
+        <main class="container" id="main">
             <noscript
-                ><p class="status">
-                    Enable JavaScript to search, save pieces, and change practice status.
+                ><p class="notice">
+                    Enable JavaScript to search, save pieces, and track practice. The browse page
+                    still links to each score.
                 </p></noscript
             >
-
             <section class="hero">
                 <div>
-                    <h1>Find your next practice piece.</h1>
-                    <p class="lead">
-                        Browse guitar sheet music, save a piece, and keep track of your practice.
+                    <p class="eyebrow">A small collection. A steady practice.</p>
+                    <h1>Find your next<br />practice piece.</h1>
+                    <p class="hero-description">
+                        Real guitar sheet music, a recording to listen to, and a place to keep your
+                        progress. Start with Carcassi and Sor.
                     </p>
-                    <a class="button-link" href="browse.html">Browse sheet music</a>
+                    <div class="hero-actions">
+                        <a class="button" href="browse.html"
+                            >Browse sheet music <span aria-hidden="true">→</span></a
+                        ><a class="text-link" href="library.html">Open my library</a>
+                    </div>
+                    <p class="small hero-note">Free score downloads · Solo classical guitar</p>
                 </div>
-                <!-- Original guitar illustration from Project 2. -->
-                <img src="assets/guitar-hero.svg" alt="Line drawing of an acoustic guitar" />
+                <!-- Original guitar illustration from the user-supplied Project 2 ZIP. -->
+                <div class="hero-art">
+                    <img src="assets/guitar-hero.svg" alt="Line drawing of an acoustic guitar" />
+                    <p class="eyebrow">Listen. Read. Play.</p>
+                </div>
             </section>
-            <section class="section-rule" aria-labelledby="featured-title">
-                <h2 id="featured-title">Featured practice pieces</h2>
-                <div class="card-grid">
-                    <article class="sheet-card card" data-sheet-id="evening">
-                        <!-- Original local artwork from the supplied Project 2 ZIP. -->
-                        <img src="assets/score-evening.svg" alt="Preview of Evening Arpeggios" />
-                        <h3>Evening Arpeggios</h3>
-                        <p class="meta">Intermediate · Anonymous study</p>
-                        <p>
-                            A calm E minor arpeggio study for building right-hand control and steady
-                            timing.
-                        </p>
-                        <div class="actions">
-                            <a href="detail.html?piece=evening">Open sheet music</a>
-                        </div>
-                        <div class="card-notices" aria-live="polite"></div>
-                    </article>
-                    <article class="sheet-card card" data-sheet-id="warmup">
-                        <!-- Original local artwork from the supplied Project 2 ZIP. -->
+            <section class="featured" aria-labelledby="featured-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Selected for your shelf</p>
+                        <h2 id="featured-title">Three pieces to spend time with</h2>
+                    </div>
+                    <a class="text-link" href="browse.html">View the collection →</a>
+                </div>
+                <div class="sheet-grid home-grid">
+                    <article
+                        class="sheet-card"
+                        data-sheet-id="carcassi"
+                        data-difficulty="Intermediate"
+                    >
+                        <!-- Score and rendered preview: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13; typeset by Jeff Covey; Public domain. -->
                         <img
-                            src="assets/score-fingerstyle.svg"
-                            alt="Preview of Warm Fingerstyle Study"
+                            src="assets/previews/carcassi.png"
+                            alt="First page of Matteo Carcassi’s Etude No. 1, Op. 60 No. 1"
                         />
-                        <h3>Warm Fingerstyle Study</h3>
-                        <p class="meta">Intermediate · Community exercise</p>
-                        <p>A short fingerstyle pattern for alternating bass and melody.</p>
-                        <div class="actions">
-                            <a href="detail.html?piece=warmup">Open sheet music</a>
+                        <div class="card-copy">
+                            <p class="eyebrow">Scale fluency</p>
+                            <h3>Etude No. 1 <span class="opus">Op. 60 No. 1</span></h3>
+                            <p class="byline">Matteo Carcassi · C major · 1 page</p>
+                            <p>
+                                An energetic solo-guitar study with flowing eighth-note scales and a
+                                sustained bass line. Practice even finger alternation while keeping
+                                the bass audible.
+                            </p>
+                            <div class="card-actions">
+                                <span class="tag">Intermediate</span
+                                ><a class="text-link" href="detail.html?piece=carcassi"
+                                    >Open sheet music</a
+                                ><button
+                                    class="button secondary save-button"
+                                    type="button"
+                                    aria-pressed="false"
+                                >
+                                    Save to library
+                                </button>
+                            </div>
+                            <div class="card-notices" aria-live="polite"></div>
                         </div>
-                        <div class="card-notices" aria-live="polite"></div>
                     </article>
-                    <article class="sheet-card card" data-sheet-id="chords">
-                        <!-- Original local artwork from the supplied Project 2 ZIP. -->
-                        <img src="assets/score-chords.svg" alt="Preview of Open Chord Changes" />
-                        <h3>Open Chord Changes</h3>
-                        <p class="meta">Beginner · Community exercise</p>
-                        <p>A beginner exercise for moving smoothly between G, C, D, and Em.</p>
-                        <div class="actions">
-                            <a href="detail.html?piece=chords">Open sheet music</a>
+                    <article
+                        class="sheet-card"
+                        data-sheet-id="sor-andante"
+                        data-difficulty="Intermediate"
+                    >
+                        <!-- Score and rendered preview: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=413; typeset by Mark Van den Borre; CC BY-SA 4.0. -->
+                        <img
+                            src="assets/previews/sor-andante.png"
+                            alt="First page of Fernando Sor’s Andante, Op. 1 No. 1"
+                        />
+                        <div class="card-copy">
+                            <p class="eyebrow">Melody and bass</p>
+                            <h3>Andante <span class="opus">Op. 1 No. 1</span></h3>
+                            <p class="byline">Fernando Sor · G major · 1 page</p>
+                            <p>
+                                The first of Sor’s Six Divertissements pairs a singing upper voice
+                                with a moving accompaniment. Its triple meter is a useful setting
+                                for balancing melody, bass, and inner notes.
+                            </p>
+                            <div class="card-actions">
+                                <span class="tag">Intermediate</span
+                                ><a class="text-link" href="detail.html?piece=sor-andante"
+                                    >Open sheet music</a
+                                ><button
+                                    class="button secondary save-button"
+                                    type="button"
+                                    aria-pressed="false"
+                                >
+                                    Save to library
+                                </button>
+                            </div>
+                            <div class="card-notices" aria-live="polite"></div>
                         </div>
-                        <div class="card-notices" aria-live="polite"></div>
+                    </article>
+                    <article
+                        class="sheet-card"
+                        data-sheet-id="sor-theme"
+                        data-difficulty="Advanced"
+                    >
+                        <!-- Score and rendered preview: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=455; typeset by Mark Van den Borre; CC BY-SA 3.0. -->
+                        <img
+                            src="assets/previews/sor-theme.png"
+                            alt="First page of Fernando Sor’s Thema, Op. 1 No. 5.1"
+                        />
+                        <div class="card-copy">
+                            <p class="eyebrow">Chord balance</p>
+                            <h3>Thema <span class="opus">Op. 1 No. 5.1</span></h3>
+                            <p class="byline">Fernando Sor · C major · 1 page</p>
+                            <p>
+                                A compact theme from Sor’s Six Divertissements, with chordal
+                                writing, grace notes, and contrasting dynamics. Shape each phrase
+                                while keeping the top note clear.
+                            </p>
+                            <div class="card-actions">
+                                <span class="tag">Advanced</span
+                                ><a class="text-link" href="detail.html?piece=sor-theme"
+                                    >Open sheet music</a
+                                ><button
+                                    class="button secondary save-button"
+                                    type="button"
+                                    aria-pressed="false"
+                                >
+                                    Save to library
+                                </button>
+                            </div>
+                            <div class="card-notices" aria-live="polite"></div>
+                        </div>
                     </article>
                 </div>
+                <p class="small section-note">
+                    Every entry includes a complete one-page PDF and a listening example. Difficulty
+                    labels are our practice estimates, not exam grades.
+                </p>
             </section>
         </main>
-        <footer>
-            <div class="footer-inner">
-                <p>© 2026 GuitarShelf · Course prototype</p>
-                <p>Jianpeng Chen · CS 5774 Project 3</p>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p>GuitarShelf · CS 5774 Project 3 · Jianpeng Chen</p>
+                <p>
+                    Curated by jianpengc ·
+                    <a href="assets/credits.txt">Music &amp; asset credits</a>
+                </p>
             </div>
         </footer>
     </body>

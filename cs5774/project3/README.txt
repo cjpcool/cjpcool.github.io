@@ -1,60 +1,31 @@
-GuitarShelf - CS 5774 Project 3
-Jianpeng Chen | Virginia Tech PID: jianpengc
-https://cjpcool.github.io/cs5774/project3/
+GuitarShelf — CS 5774 Project 3
+Jianpeng Chen | PID / uploader: jianpengc
+Hosted URL: https://cjpcool.github.io/cs5774/project3/
 
-This simplified version uses the supplied Project 2 ZIP's typography,
-three sample pieces, and original local SVG artwork.
+Open index.html; serve the folder over HTTP for persistent browser storage.
+Header search submits GET to search.html?q=... . Keyphrase: fingerstyle
+(case-insensitive; surrounding spaces ignored). Other phrases show friendly help.
 
-PAGES
-index.html   Home
-browse.html  Three sheet music entries
-search.html  Simulated results or friendly no-results message
-detail.html  One piece's description and preview
-library.html Saved pieces and practice status
-add.html     Simple entry-preview form (no upload or publishing)
+Two required jQuery interactions in js/app.js:
+1. Delegated click on .save-button: changes button/card and adds a feedback paragraph.
+2. change on .practice-select: closest()/find() update card/badge and add a practice note.
+Both persist in localStorage; neither is validation.
 
-REQUIRED FEATURES
-Search: submit fingerstyle in the header GET form. This one keyphrase shows
-three fixed sample results. Other phrases and blank searches show help.
-Matching is case-insensitive and ignores outer whitespace.
+Pages retain Project 2's structure: home hero + cards, browse filter + list,
+detail preview/notes + sidebar, library saved cards + uploads section,
+add two-column form. Search results is the additional required page.
+Only runtime library: the required, locally stored jQuery 3.7.1.
 
-Interaction 1: click Save to library on Warm Fingerstyle Study. The delegated
-jQuery click handler changes the existing card/button and adds a NEW feedback
-paragraph. Delegation also works on dynamically created search-result cards.
+Three real one-page guitar scores and three playable audio files are included.
+Carcassi audio is a guitar performance; both Sor examples are synthesized MIDI
+playback supplied by the edition maintainer. Full credits/licenses and source
+links are in assets/credits.txt and on each detail page. PDFs/audio unchanged;
+PNG previews render the original PDFs. Practice levels are editorial estimates.
+The Add page previews metadata, a selected filename and visibility preference;
+it does not upload or publish files. Notes on a detail page last until navigation.
+There is no login/backend. Storage failure is reported without a false success.
 
-Interaction 2: open the demo library and change Practice status. The jQuery
-change handler uses closest() and find() for DOM traversal, updates the
-existing badge/card, and generates a NEW practice-note paragraph.
-Neither counted interaction is validation. Saving/status persist locally.
-
-The add page only previews title, composer, difficulty, and description.
-Native required controls reject blank or whitespace-only required fields.
-Filters, pagination, discussion, accounts, uploads, and delete management
-were removed to keep only the essential prototype components.
-
-SOURCE
-All pages link styles.css, js/app.js, and local jQuery 3.7.1.
-No embedded scripts, inline event handlers, frameworks, or other runtime
-libraries are used. Source is commented with four-space indentation.
-Official jQuery license: js/vendor/jquery-LICENSE.txt.
-Original SVG assets were copied from Project 2 and credited in HTML comments.
-
-TESTING
-Verified in Chrome 154 and Firefox 153: GET search, matching/nonmatching/blank
-phrases, safe query display, delegated save, status change, reload persistence,
-preview form, storage failure feedback, six pages at desktop and 390px mobile,
-linked assets and labeled controls. The development check is in work/check-simple.cjs.
-
-LOCAL PREVIEW
-From the folder containing cs5774:
-    python -m http.server 8000
-Visit http://localhost:8000/cs5774/project3/.
-
-CANVAS SUBMISSION
-Submit jianpeng-chen-jianpengc.zip and the separate two-page summary PDF.
-All links and assets use relative paths; the ZIP preserves cs5774/project3/.
-
-REFERENCES
-https://learn.jquery.com/events/event-delegation/
-https://api.jquery.com/category/traversing/
-https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+GitHub deployment uses the authenticated cjpcool account and the commit display
+name jianpengc. No separate GitHub account is impersonated or renamed.
+All navigation, script, stylesheet and media paths are relative to this folder.
+Summary PDF is submitted separately from the ZIP; score PDFs belong in the ZIP.

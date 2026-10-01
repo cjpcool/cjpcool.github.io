@@ -1,0 +1,47 @@
+GUITARSHELF — REAL MUSIC & ASSET CREDITS
+Curated/uploaded to this prototype by jianpengc (Jianpeng Chen).
+The uploader did not compose, typeset, or perform these works.
+
+Matteo Carcassi: Etude No. 1, Op. 60 No. 1
+Score: assets/scores/carcassi.pdf
+Preview: assets/previews/carcassi.png
+Edition/typesetting: Jeff Covey, Mutopia Project
+Source: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13
+Score license: Public domain — https://www.mutopiaproject.org/legal.html
+PDF unchanged; preview rendered from the complete first page (no notation edits).
+Audio: assets/audio/carcassi.ogg
+Credit: Guitar performance · Jujutacular
+Audio source: https://commons.wikimedia.org/wiki/File:Carcassi_Op_60_No_1.ogg
+Audio license: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Audio downloaded unchanged.
+
+Fernando Sor: Andante, Op. 1 No. 1
+Score: assets/scores/sor-andante.pdf
+Preview: assets/previews/sor-andante.png
+Edition/typesetting: Mark Van den Borre, Mutopia Project
+Source: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=413
+Score license: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+PDF unchanged; preview rendered from the complete first page (no notation edits).
+Audio: assets/audio/sor-andante.mp3
+Credit: Synthesized MIDI playback · Mark Van den Borre
+Audio source: https://www.mutopiaproject.org/ftp/SorF/O1/sor_op1_1/sor_op1_1.mp3
+Audio license: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+Audio downloaded unchanged.
+
+Fernando Sor: Thema, Op. 1 No. 5.1
+Score: assets/scores/sor-theme.pdf
+Preview: assets/previews/sor-theme.png
+Edition/typesetting: Mark Van den Borre, Mutopia Project
+Source: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=455
+Score license: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+PDF unchanged; preview rendered from the complete first page (no notation edits).
+Audio: assets/audio/sor-theme.mp3
+Credit: Synthesized MIDI playback · Mark Van den Borre
+Audio source: https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_1/sor_op_1_5_1.mp3
+Audio license: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+Audio downloaded unchanged.
+
+Guitar illustration: assets/guitar-hero.svg, original local artwork from the user-supplied Project 2 ZIP.
+Favicon: original local GuitarShelf SVG from the earlier Project 3 version.
+Difficulty levels and practice tips: editorial guidance written for this prototype, not official grades.
+jQuery 3.7.1: OpenJS Foundation and contributors, MIT license; js/vendor/jquery-LICENSE.txt.
