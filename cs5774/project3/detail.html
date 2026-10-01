@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="GuitarShelf helps guitar learners find sheet music and organize their practice."
+        />
+        <title>Sheet music detail | GuitarShelf</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- jQuery is the only runtime library. Both scripts are local and deferred in order. -->
+        <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-top container">
+                <a class="brand" href="index.html" aria-label="GuitarShelf home"
+                    >GuitarShelf<span class="brand-dot" aria-hidden="true">.</span></a
+                >
+                <!-- GET works on static hosting and makes the search shareable. -->
+                <form class="header-search" action="search.html" method="get" role="search">
+                    <label class="visually-hidden" for="search-query">Search sheet music</label>
+                    <input
+                        id="search-query"
+                        name="q"
+                        type="search"
+                        placeholder="Try fingerstyle"
+                        maxlength="120"
+                    />
+                    <button class="button" type="submit">Search</button>
+                </form>
+                <a class="button secondary demo-link" href="library.html">Try demo workspace</a>
+            </div>
+            <nav class="primary-nav container" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="browse.html">Browse sheet music</a>
+            </nav>
+        </header>
+        <main class="container" id="main">
+            <noscript
+                ><p class="notice">
+                    Enable JavaScript to search, save sheet music, and update your practice status.
+                </p></noscript
+            >
+            <a id="back-results" class="back-link" href="browse.html">← Back to results</a>
+            <article
+                id="piece-detail"
+                class="sheet-card detail-card"
+                data-sheet-id="evening"
+                data-title="Evening Arpeggios"
+            >
+                <div class="detail-heading">
+                    <div>
+                        <p class="eyebrow" id="detail-level">Beginner / Standard + TAB</p>
+                        <h1 id="detail-title">Evening Arpeggios</h1>
+                        <p id="detail-composer" class="byline">By M. Rivera</p>
+                    </div>
+                    <button class="save-button button" type="button" aria-pressed="false">
+                        Save to demo library
+                    </button>
+                </div>
+                <div class="detail-layout">
+                    <section class="score-panel" aria-labelledby="preview-title">
+                        <div class="section-heading">
+                            <h2 id="preview-title">Sheet music preview</h2>
+                            <span class="small">Practice illustration</span>
+                        </div>
+                        <!-- Original SVG music illustration; the download matches the preview. -->
+                        <img
+                            id="detail-image"
+                            src="assets/sheet-evening.svg"
+                            alt="Illustrated Evening Arpeggios guitar practice sheet"
+                            width="480"
+                            height="620"
+                        />
+                        <a
+                            id="sheet-download"
+                            class="button secondary"
+                            href="assets/sheet-evening.svg"
+                            download
+                            >Download practice sheet (SVG)</a
+                        >
+                    </section>
+                    <div class="detail-about">
+                        <section aria-labelledby="about-title">
+                            <h2 id="about-title">About this piece</h2>
+                            <p id="detail-description">
+                                A gentle study for an even thumb and a clear melody.
+                            </p>
+                            <dl>
+                                <dt>Notation</dt>
+                                <dd>Standard notation + TAB</dd>
+                                <dt>Visibility</dt>
+                                <dd>Public sample entry</dd>
+                                <dt>Practice focus</dt>
+                                <dd>Steady rhythm and relaxed fingerstyle</dd>
+                            </dl>
+                            <span class="tag">fingerstyle</span
+                            ><span class="tag">practice study</span>
+                        </section>
+                        <section class="practice-tip" aria-labelledby="tip-title">
+                            <h2 id="tip-title">A practice tip</h2>
+                            <p>
+                                Start slowly. Play the bass notes on their own, then add the upper
+                                notes without changing the pulse. Aim for three comfortable
+                                repetitions before increasing your tempo.
+                            </p>
+                        </section>
+                        <div class="card-notices" aria-live="polite" aria-atomic="true"></div>
+                        <p class="small">
+                            This course prototype uses sample entries and illustrated notation.
+                            Recordings and account services are outside this version.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p><strong>GuitarShelf</strong> / Sheet music for your next practice session.</p>
+                <p>CS 5774 · Project 3 · Jianpeng Chen</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="GuitarShelf helps guitar learners find sheet music and organize their practice."
+        />
+        <title>Search results | GuitarShelf</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- jQuery is the only runtime library. Both scripts are local and deferred in order. -->
+        <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-top container">
+                <a class="brand" href="index.html" aria-label="GuitarShelf home"
+                    >GuitarShelf<span class="brand-dot" aria-hidden="true">.</span></a
+                >
+                <!-- GET works on static hosting and makes the search shareable. -->
+                <form class="header-search" action="search.html" method="get" role="search">
+                    <label class="visually-hidden" for="search-query">Search sheet music</label>
+                    <input
+                        id="search-query"
+                        name="q"
+                        type="search"
+                        placeholder="Try fingerstyle"
+                        maxlength="120"
+                    />
+                    <button class="button" type="submit">Search</button>
+                </form>
+                <a class="button secondary demo-link" href="library.html">Try demo workspace</a>
+            </div>
+            <nav class="primary-nav container" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="browse.html">Browse sheet music</a>
+            </nav>
+        </header>
+        <main class="container" id="main">
+            <noscript
+                ><p class="notice">
+                    Enable JavaScript to search, save sheet music, and update your practice status.
+                </p></noscript
+            >
+            <div class="page-heading">
+                <p class="eyebrow">Find your next piece</p>
+                <h1>Search results</h1>
+                <p id="search-summary" role="status">Preparing your search results…</p>
+            </div>
+            <section id="search-results" aria-label="Search results" aria-live="polite"></section>
+            <!-- JS clones this consistent card structure only when the keyphrase matches. -->
+            <template id="result-template">
+                <article class="sheet-card">
+                    <img width="240" height="310" alt="" />
+                    <div class="card-copy">
+                        <p class="eyebrow"></p>
+                        <h2><a class="piece-link"></a></h2>
+                        <p class="byline"></p>
+                        <p class="piece-description"></p>
+                        <div class="card-actions">
+                            <a class="button secondary open-link">Open sheet music</a>
+                            <button
+                                class="save-button button secondary"
+                                type="button"
+                                aria-pressed="false"
+                            >
+                                Save to demo library
+                            </button>
+                        </div>
+                        <div class="card-notices" aria-live="polite" aria-atomic="true"></div>
+                    </div>
+                </article>
+            </template>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p><strong>GuitarShelf</strong> / Sheet music for your next practice session.</p>
+                <p>CS 5774 · Project 3 · Jianpeng Chen</p>
+            </div>
+        </footer>
+    </body>
+</html>

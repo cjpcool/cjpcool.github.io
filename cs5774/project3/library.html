@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="GuitarShelf helps guitar learners find sheet music and organize their practice."
+        />
+        <title>My Library | GuitarShelf</title>
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="styles.css" />
+        <!-- jQuery is the only runtime library. Both scripts are local and deferred in order. -->
+        <script src="js/vendor/jquery-3.7.1.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <header class="site-header">
+            <div class="header-top container">
+                <a class="brand" href="index.html" aria-label="GuitarShelf home"
+                    >GuitarShelf<span class="brand-dot" aria-hidden="true">.</span></a
+                >
+                <!-- GET works on static hosting and makes the search shareable. -->
+                <form class="header-search" action="search.html" method="get" role="search">
+                    <label class="visually-hidden" for="search-query">Search sheet music</label>
+                    <input
+                        id="search-query"
+                        name="q"
+                        type="search"
+                        placeholder="Try fingerstyle"
+                        maxlength="120"
+                    />
+                    <button class="button" type="submit">Search</button>
+                </form>
+                <span class="account-label">Alex · Demo workspace</span>
+            </div>
+            <nav class="primary-nav container" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="browse.html">Browse sheet music</a>
+                <a href="library.html" aria-current="page">My Library</a>
+                <a href="add.html">Add Sheet Music</a>
+            </nav>
+        </header>
+        <main class="container" id="main">
+            <noscript
+                ><p class="notice">
+                    Enable JavaScript to search, save sheet music, and update your practice status.
+                </p></noscript
+            >
+            <div class="workspace-layout">
+                <aside class="workspace-sidebar">
+                    <p class="eyebrow">Your workspace</p>
+                    <h2>My Library</h2>
+                    <a class="sidebar-active" href="#saved">Saved sheet music</a
+                    ><a href="#uploads">My uploads</a><a href="add.html">Add a new piece</a>
+                    <div class="small sidebar-note">
+                        Demo workspace<br />Your changes stay in this browser. No real account or
+                        server upload is used.
+                    </div>
+                </aside>
+                <div>
+                    <div class="page-heading heading-with-action">
+                        <div>
+                            <p class="eyebrow">Make room for music</p>
+                            <h1>Welcome back, Alex.</h1>
+                            <p>Your saved pieces and a little progress, all in one place.</p>
+                        </div>
+                        <a class="button" href="add.html">+ Add Sheet Music</a>
+                    </div>
+                    <section id="saved" aria-labelledby="saved-title">
+                        <div class="section-heading">
+                            <h2 id="saved-title">Continue practicing</h2>
+                            <p class="small" id="saved-count">2 saved pieces</p>
+                        </div>
+                        <div class="sheet-grid" id="saved-pieces">
+                            <article
+                                class="sheet-card"
+                                data-sheet-id="evening"
+                                data-title="Evening Arpeggios"
+                            >
+                                <!-- Original sheet illustrations created for this prototype; no external images. -->
+                                <img
+                                    src="assets/sheet-evening.svg"
+                                    alt="Illustrated guitar notation for Evening Arpeggios"
+                                    width="240"
+                                    height="310"
+                                />
+                                <div class="card-copy">
+                                    <p class="eyebrow">Beginner / Standard + TAB</p>
+                                    <h3>
+                                        <a href="detail.html?piece=evening">Evening Arpeggios</a>
+                                    </h3>
+                                    <p class="byline">By M. Rivera</p>
+                                    <p>A gentle study for an even thumb and a clear melody.</p>
+                                    <div class="card-actions">
+                                        <a class="button secondary" href="detail.html?piece=evening"
+                                            >Open sheet music</a
+                                        >
+                                    </div>
+                                    <div class="practice-controls">
+                                        <label for="practice-evening">Practice status</label>
+                                        <select class="practice-select" id="practice-evening">
+                                            <option value="planned">To practice</option>
+                                            <option value="practicing">Practicing</option>
+                                            <option value="learned">Learned</option>
+                                        </select>
+                                        <span class="practice-badge">To practice</span>
+                                    </div>
+                                    <div
+                                        class="card-notices"
+                                        aria-live="polite"
+                                        aria-atomic="true"
+                                    ></div>
+                                </div>
+                            </article>
+                            <article
+                                class="sheet-card"
+                                data-sheet-id="melody"
+                                data-title="Melody in A Minor"
+                            >
+                                <!-- Original sheet illustrations created for this prototype; no external images. -->
+                                <img
+                                    src="assets/sheet-melody.svg"
+                                    alt="Illustrated guitar notation for Melody in A Minor"
+                                    width="240"
+                                    height="310"
+                                />
+                                <div class="card-copy">
+                                    <p class="eyebrow">Intermediate / Standard + TAB</p>
+                                    <h3>
+                                        <a href="detail.html?piece=melody">Melody in A Minor</a>
+                                    </h3>
+                                    <p class="byline">By R. Taylor</p>
+                                    <p>Bring out the melody above a steady bass line.</p>
+                                    <div class="card-actions">
+                                        <a class="button secondary" href="detail.html?piece=melody"
+                                            >Open sheet music</a
+                                        >
+                                    </div>
+                                    <div class="practice-controls">
+                                        <label for="practice-melody">Practice status</label>
+                                        <select class="practice-select" id="practice-melody">
+                                            <option value="planned">To practice</option>
+                                            <option value="practicing">Practicing</option>
+                                            <option value="learned">Learned</option>
+                                        </select>
+                                        <span class="practice-badge">To practice</span>
+                                    </div>
+                                    <div
+                                        class="card-notices"
+                                        aria-live="polite"
+                                        aria-atomic="true"
+                                    ></div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section id="uploads" class="uploads-section" aria-labelledby="uploads-title">
+                        <div class="section-heading">
+                            <h2 id="uploads-title">My uploads</h2>
+                            <span class="small">Local demo entries</span>
+                        </div>
+                        <p id="uploads-empty">
+                            You haven't added a piece yet. Share a practice study to see it here.
+                        </p>
+                        <div id="upload-list"></div>
+                        <div id="upload-status" role="status" aria-live="polite"></div>
+                    </section>
+                </div>
+            </div>
+            <!-- Shared markup for pieces saved from browse/search. -->
+            <template id="saved-template">
+                <article class="sheet-card">
+                    <img width="240" height="310" alt="" />
+                    <div class="card-copy">
+                        <p class="eyebrow"></p>
+                        <h3><a class="piece-link"></a></h3>
+                        <p class="byline"></p>
+                        <p class="piece-description"></p>
+                        <a class="button secondary open-link">Open sheet music</a>
+                        <div class="practice-controls">
+                            <label>Practice status</label
+                            ><select class="practice-select">
+                                <option value="planned">To practice</option>
+                                <option value="practicing">Practicing</option>
+                                <option value="learned">Learned</option></select
+                            ><span class="practice-badge">To practice</span>
+                        </div>
+                        <div class="card-notices" aria-live="polite" aria-atomic="true"></div>
+                    </div>
+                </article>
+            </template>
+            <dialog
+                id="delete-dialog"
+                aria-labelledby="delete-title"
+                aria-describedby="delete-description"
+            >
+                <h2 id="delete-title">Delete this entry?</h2>
+                <p id="delete-description">
+                    This removes the entry from this browser's demo uploads. It cannot be undone.
+                </p>
+                <div class="card-actions">
+                    <button class="button secondary" type="button" id="cancel-delete">
+                        Keep entry</button
+                    ><button class="button" type="button" id="confirm-delete">Delete entry</button>
+                </div>
+            </dialog>
+        </main>
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <p><strong>GuitarShelf</strong> / Sheet music for your next practice session.</p>
+                <p>CS 5774 · Project 3 · Jianpeng Chen</p>
+            </div>
+        </footer>
+    </body>
+</html>
