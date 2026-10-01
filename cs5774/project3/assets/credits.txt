@@ -41,7 +41,7 @@ Audio source: https://www.mutopiaproject.org/ftp/SorF/O1/sor_op_1_5_1/sor_op_1_5
 Audio license: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
 Audio downloaded unchanged.
 
-Guitar illustration: assets/guitar-hero.svg, original local artwork from the user-supplied Project 2 ZIP.
-Favicon: original local GuitarShelf SVG from the earlier Project 3 version.
+Guitar illustration: assets/guitar-hero.svg, original local vector artwork following Project 2's guitar motif; transparent background with light/dark contrast edges.
+Favicon: original local GuitarShelf SVG with a light edge for either browser theme.
 Difficulty levels and practice tips: editorial guidance written for this prototype, not official grades.
 jQuery 3.7.1: OpenJS Foundation and contributors, MIT license; js/vendor/jquery-LICENSE.txt.

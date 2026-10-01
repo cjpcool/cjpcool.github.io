@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="7" fill="#242424"/><text x="6" y="24" fill="white" font-family="Georgia,serif" font-size="25">G</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <title>GuitarShelf</title>
+    <!-- A light edge keeps the dark tile visible in either browser theme. -->
+    <rect x="1" y="1" width="30" height="30" rx="7" fill="#252525" stroke="#deddd8" stroke-width="1.5" />
+    <text x="6" y="24" fill="#f6f5f1" font-family="Georgia,serif" font-size="25">G</text>
+</svg>
