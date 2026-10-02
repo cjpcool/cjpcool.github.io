@@ -19,9 +19,10 @@
         <header class="site-header">
             <div class="container">
                 <div class="header-top">
-                    <a class="brand" href="index.html"
-                        >GuitarShelf<span class="brand-dot">.</span></a
-                    >
+                    <a class="brand" href="index.html">
+                        GuitarShelf
+                        <span class="brand-dot">.</span>
+                    </a>
                     <!-- GET submits q to the separate simulated results page. -->
                     <form
                         class="header-search site-search"
@@ -29,38 +30,41 @@
                         method="get"
                         role="search"
                     >
-                        <label class="visually-hidden" for="site-q">Search sheet music</label
-                        ><input
+                        <label class="visually-hidden" for="site-q">Search sheet music</label>
+                        <input
                             id="site-q"
                             type="search"
                             name="q"
                             maxlength="120"
                             placeholder="Try fingerstyle"
-                        /><button class="button" type="submit">Search</button>
+                        />
+                        <button class="button" type="submit">Search</button>
                     </form>
                     <div class="account-controls">
-                        <a class="text-link" id="login-link" href="login.html">Log in</a
-                        ><span class="account-label" id="signed-in-label" hidden>jianpengc</span
-                        ><button class="button secondary" id="logout-button" type="button" hidden>
+                        <a class="text-link" id="login-link" href="login.html">Log in</a>
+                        <span class="account-label" id="signed-in-label" hidden>jianpengc</span>
+                        <button class="button secondary" id="logout-button" type="button" hidden>
                             Log out
                         </button>
                     </div>
                 </div>
                 <nav class="primary-nav" aria-label="Primary navigation">
-                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
-                    ><a href="library.html" class="workspace-link" hidden aria-current="page"
-                        >My library</a
-                    ><a href="add.html" class="workspace-link" hidden>Add sheet music</a>
+                    <a href="index.html">Home</a>
+                    <a href="browse.html">Browse sheet music</a>
+                    <a href="library.html" class="workspace-link" hidden aria-current="page">
+                        My library
+                    </a>
+                    <a href="add.html" class="workspace-link" hidden>Add sheet music</a>
                 </nav>
             </div>
         </header>
         <main class="container" id="main" data-requires-login="true">
-            <noscript
-                ><p class="notice">
+            <noscript>
+                <p class="notice">
                     Enable JavaScript to log in, search, save pieces, and track practice. The browse
                     page still links to each score.
-                </p></noscript
-            >
+                </p>
+            </noscript>
             <div class="page-heading heading-with-action">
                 <div>
                     <p class="eyebrow">Your practice shelf</p>
@@ -89,18 +93,21 @@
                     not published by this course prototype.
                 </p>
             </section>
-            <template id="piece-template"
-                ><article class="sheet-card">
-                    <!-- Previews are rendered from the credited Mutopia PDFs. See assets/credits.txt. -->
-                    <img alt="" />
+            <template id="piece-template">
+                <article class="sheet-card">
+                    <!-- PDF-rendered preview sources (full licenses also in assets/credits.txt):
+         Carcassi: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13, Jeff Covey, public domain.
+         Sor Andante: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=413, Mark Van den Borre, CC BY-SA 4.0.
+         Sor Thema: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=455, Mark Van den Borre, CC BY-SA 3.0. -->
+                    <img src="assets/previews/carcassi.png" alt="Score preview" />
                     <div class="card-copy">
                         <p class="eyebrow piece-focus"></p>
                         <h3 class="piece-title"></h3>
                         <p class="byline meta"></p>
                         <p class="piece-description"></p>
                         <div class="card-actions">
-                            <a class="open-link text-link">Open sheet music</a
-                            ><button
+                            <a class="open-link text-link">Open sheet music</a>
+                            <button
                                 class="button secondary save-button"
                                 type="button"
                                 aria-pressed="false"
@@ -109,8 +116,8 @@
                             </button>
                         </div>
                         <div class="practice-controls">
-                            <label>Practice status</label
-                            ><select class="practice-select">
+                            <label>Practice status</label>
+                            <select class="practice-select">
                                 <option value="planned">To practice</option>
                                 <option value="practicing">Practicing</option>
                                 <option value="learned">Learned</option>
@@ -118,8 +125,9 @@
                             <p class="practice-badge">To practice</p>
                         </div>
                         <div class="card-notices" aria-live="polite"></div>
-                    </div></article
-            ></template>
+                    </div>
+                </article>
+            </template>
         </main>
         <footer class="site-footer">
             <div class="container footer-inner">

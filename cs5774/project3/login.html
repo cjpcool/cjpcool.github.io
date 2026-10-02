@@ -19,9 +19,10 @@
         <header class="site-header">
             <div class="container">
                 <div class="header-top">
-                    <a class="brand" href="index.html"
-                        >GuitarShelf<span class="brand-dot">.</span></a
-                    >
+                    <a class="brand" href="index.html">
+                        GuitarShelf
+                        <span class="brand-dot">.</span>
+                    </a>
                     <!-- GET submits q to the separate simulated results page. -->
                     <form
                         class="header-search site-search"
@@ -29,46 +30,55 @@
                         method="get"
                         role="search"
                     >
-                        <label class="visually-hidden" for="site-q">Search sheet music</label
-                        ><input
+                        <label class="visually-hidden" for="site-q">Search sheet music</label>
+                        <input
                             id="site-q"
                             type="search"
                             name="q"
                             maxlength="120"
                             placeholder="Try fingerstyle"
-                        /><button class="button" type="submit">Search</button>
+                        />
+                        <button class="button" type="submit">Search</button>
                     </form>
                     <div class="account-controls">
-                        <a class="text-link" id="login-link" href="login.html">Log in</a
-                        ><span class="account-label" id="signed-in-label" hidden>jianpengc</span
-                        ><button class="button secondary" id="logout-button" type="button" hidden>
+                        <a class="text-link" id="login-link" href="login.html">Log in</a>
+                        <span class="account-label" id="signed-in-label" hidden>jianpengc</span>
+                        <button class="button secondary" id="logout-button" type="button" hidden>
                             Log out
                         </button>
                     </div>
                 </div>
                 <nav class="primary-nav" aria-label="Primary navigation">
-                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
-                    ><a href="library.html" class="workspace-link" hidden>My library</a
-                    ><a href="add.html" class="workspace-link" hidden>Add sheet music</a>
+                    <a href="index.html">Home</a>
+                    <a href="browse.html">Browse sheet music</a>
+                    <a href="library.html" class="workspace-link" hidden>My library</a>
+                    <a href="add.html" class="workspace-link" hidden>Add sheet music</a>
                 </nav>
             </div>
         </header>
         <main class="container" id="main">
-            <noscript
-                ><p class="notice">
+            <noscript>
+                <p class="notice">
                     Enable JavaScript to log in, search, save pieces, and track practice. The browse
                     page still links to each score.
-                </p></noscript
-            >
+                </p>
+            </noscript>
             <section class="login-panel" aria-labelledby="login-title">
                 <p class="eyebrow">Welcome to your practice shelf</p>
                 <h1 id="login-title">Log in</h1>
                 <p>Save a score and keep track of your practice.</p>
                 <p class="notice small" id="login-help">
-                    <strong>Demo account</strong><br />Username: <strong>jianpengc</strong
-                    ><br />Password: <strong>guitar123</strong><br />Use these demo details only.
-                    This is a simulated login.
+                    <strong>Demo account</strong>
+                    <br />
+                    Username:
+                    <strong>jianpengc</strong>
+                    <br />
+                    Password:
+                    <strong>guitar123</strong>
+                    <br />
+                    Use these demo details only. This is a simulated login.
                 </p>
+                <!-- Added in response to Project 1B login-page feedback. -->
                 <!-- jQuery intercepts submit. Fields stay disabled until the handler is ready. -->
                 <form
                     id="login-form"
@@ -79,24 +89,26 @@
                     <fieldset id="login-fields" disabled>
                         <legend class="visually-hidden">Demo login</legend>
                         <div class="field">
-                            <label for="login-username">Username *</label
-                            ><input
+                            <label for="login-username">Username *</label>
+                            <input
                                 id="login-username"
                                 name="username"
                                 type="text"
                                 autocomplete="username"
                                 maxlength="30"
+                                aria-describedby="login-status"
                                 required
                             />
                         </div>
                         <div class="field">
-                            <label for="login-password">Password *</label
-                            ><input
+                            <label for="login-password">Password *</label>
+                            <input
                                 id="login-password"
                                 name="password"
                                 type="password"
                                 autocomplete="off"
                                 maxlength="64"
+                                aria-describedby="login-status"
                                 required
                             />
                         </div>

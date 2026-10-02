@@ -19,9 +19,10 @@
         <header class="site-header">
             <div class="container">
                 <div class="header-top">
-                    <a class="brand" href="index.html"
-                        >GuitarShelf<span class="brand-dot">.</span></a
-                    >
+                    <a class="brand" href="index.html">
+                        GuitarShelf
+                        <span class="brand-dot">.</span>
+                    </a>
                     <!-- GET submits q to the separate simulated results page. -->
                     <form
                         class="header-search site-search"
@@ -29,39 +30,41 @@
                         method="get"
                         role="search"
                     >
-                        <label class="visually-hidden" for="site-q">Search sheet music</label
-                        ><input
+                        <label class="visually-hidden" for="site-q">Search sheet music</label>
+                        <input
                             id="site-q"
                             type="search"
                             name="q"
                             maxlength="120"
                             placeholder="Try fingerstyle"
-                        /><button class="button" type="submit">Search</button>
+                        />
+                        <button class="button" type="submit">Search</button>
                     </form>
                     <div class="account-controls">
-                        <a class="text-link" id="login-link" href="login.html">Log in</a
-                        ><span class="account-label" id="signed-in-label" hidden>jianpengc</span
-                        ><button class="button secondary" id="logout-button" type="button" hidden>
+                        <a class="text-link" id="login-link" href="login.html">Log in</a>
+                        <span class="account-label" id="signed-in-label" hidden>jianpengc</span>
+                        <button class="button secondary" id="logout-button" type="button" hidden>
                             Log out
                         </button>
                     </div>
                 </div>
                 <nav class="primary-nav" aria-label="Primary navigation">
-                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
-                    ><a href="library.html" class="workspace-link" hidden>My library</a
-                    ><a href="add.html" class="workspace-link" hidden aria-current="page"
-                        >Add sheet music</a
-                    >
+                    <a href="index.html">Home</a>
+                    <a href="browse.html">Browse sheet music</a>
+                    <a href="library.html" class="workspace-link" hidden>My library</a>
+                    <a href="add.html" class="workspace-link" hidden aria-current="page">
+                        Add sheet music
+                    </a>
                 </nav>
             </div>
         </header>
         <main class="container" id="main" data-requires-login="true">
-            <noscript
-                ><p class="notice">
+            <noscript>
+                <p class="notice">
                     Enable JavaScript to log in, search, save pieces, and track practice. The browse
                     page still links to each score.
-                </p></noscript
-            >
+                </p>
+            </noscript>
             <div class="page-heading">
                 <p class="eyebrow">Share a practice idea</p>
                 <h1>Add sheet music</h1>
@@ -73,8 +76,8 @@
             </p>
             <form id="add-form" class="entry-form entry-width">
                 <div class="field">
-                    <label for="piece-title">Title *</label
-                    ><input
+                    <label for="piece-title">Title *</label>
+                    <input
                         id="piece-title"
                         name="title"
                         type="text"
@@ -85,12 +88,12 @@
                 </div>
                 <div class="form-row">
                     <div class="field">
-                        <label for="piece-composer">Composer or creator</label
-                        ><input id="piece-composer" name="composer" type="text" maxlength="100" />
+                        <label for="piece-composer">Composer or creator</label>
+                        <input id="piece-composer" name="composer" type="text" maxlength="100" />
                     </div>
                     <div class="field">
-                        <label for="piece-difficulty">Practice level *</label
-                        ><select id="piece-difficulty" name="difficulty" required>
+                        <label for="piece-difficulty">Practice level *</label>
+                        <select id="piece-difficulty" name="difficulty" required>
                             <option value="">Choose a level</option>
                             <option>Beginner</option>
                             <option>Intermediate</option>
@@ -99,8 +102,8 @@
                     </div>
                 </div>
                 <div class="field">
-                    <label for="piece-description">Description *</label
-                    ><textarea
+                    <label for="piece-description">Description *</label>
+                    <textarea
                         id="piece-description"
                         name="description"
                         rows="4"
@@ -111,8 +114,8 @@
                 </div>
                 <div class="form-row">
                     <div class="field">
-                        <label for="piece-file">Sheet music file (optional)</label
-                        ><input
+                        <label for="piece-file">Sheet music file (optional)</label>
+                        <input
                             id="piece-file"
                             name="score"
                             type="file"
@@ -121,8 +124,8 @@
                         <p class="small">PDF, PNG or JPG. The preview shows the filename only.</p>
                     </div>
                     <div class="field">
-                        <label for="demo-url">Recording URL (optional)</label
-                        ><input
+                        <label for="demo-url">Recording URL (optional)</label>
+                        <input
                             id="demo-url"
                             name="recording"
                             type="url"
@@ -132,19 +135,21 @@
                 </div>
                 <fieldset>
                     <legend>Visibility preference</legend>
-                    <label class="radio-label"
-                        ><input type="radio" name="visibility" value="Public" checked />
-                        Public</label
-                    ><label class="radio-label"
-                        ><input type="radio" name="visibility" value="Private" /> Private</label
-                    >
+                    <label class="radio-label">
+                        <input type="radio" name="visibility" value="Public" checked />
+                        Public
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="visibility" value="Private" />
+                        Private
+                    </label>
                     <p class="small">
                         Shown in the preview; this demo does not publish either choice.
                     </p>
                 </fieldset>
                 <div class="card-actions form-actions">
-                    <button class="button" type="submit">Preview entry</button
-                    ><a class="button secondary" href="library.html">Cancel</a>
+                    <button class="button" type="submit">Preview entry</button>
+                    <a class="button secondary" href="library.html">Cancel</a>
                 </div>
             </form>
             <section class="entry-preview entry-width" aria-labelledby="preview-heading" hidden>

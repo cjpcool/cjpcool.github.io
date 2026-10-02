@@ -19,9 +19,10 @@
         <header class="site-header">
             <div class="container">
                 <div class="header-top">
-                    <a class="brand" href="index.html"
-                        >GuitarShelf<span class="brand-dot">.</span></a
-                    >
+                    <a class="brand" href="index.html">
+                        GuitarShelf
+                        <span class="brand-dot">.</span>
+                    </a>
                     <!-- GET submits q to the separate simulated results page. -->
                     <form
                         class="header-search site-search"
@@ -29,37 +30,39 @@
                         method="get"
                         role="search"
                     >
-                        <label class="visually-hidden" for="site-q">Search sheet music</label
-                        ><input
+                        <label class="visually-hidden" for="site-q">Search sheet music</label>
+                        <input
                             id="site-q"
                             type="search"
                             name="q"
                             maxlength="120"
                             placeholder="Try fingerstyle"
-                        /><button class="button" type="submit">Search</button>
+                        />
+                        <button class="button" type="submit">Search</button>
                     </form>
                     <div class="account-controls">
-                        <a class="text-link" id="login-link" href="login.html">Log in</a
-                        ><span class="account-label" id="signed-in-label" hidden>jianpengc</span
-                        ><button class="button secondary" id="logout-button" type="button" hidden>
+                        <a class="text-link" id="login-link" href="login.html">Log in</a>
+                        <span class="account-label" id="signed-in-label" hidden>jianpengc</span>
+                        <button class="button secondary" id="logout-button" type="button" hidden>
                             Log out
                         </button>
                     </div>
                 </div>
                 <nav class="primary-nav" aria-label="Primary navigation">
-                    <a href="index.html">Home</a><a href="browse.html">Browse sheet music</a
-                    ><a href="library.html" class="workspace-link" hidden>My library</a
-                    ><a href="add.html" class="workspace-link" hidden>Add sheet music</a>
+                    <a href="index.html">Home</a>
+                    <a href="browse.html">Browse sheet music</a>
+                    <a href="library.html" class="workspace-link" hidden>My library</a>
+                    <a href="add.html" class="workspace-link" hidden>Add sheet music</a>
                 </nav>
             </div>
         </header>
         <main class="container" id="main">
-            <noscript
-                ><p class="notice">
+            <noscript>
+                <p class="notice">
                     Enable JavaScript to log in, search, save pieces, and track practice. The browse
                     page still links to each score.
-                </p></noscript
-            >
+                </p>
+            </noscript>
             <a class="back-link" id="back-results" href="browse.html">← Back to results</a>
             <article class="sheet-card detail-card" id="piece-detail" data-sheet-id="carcassi">
                 <div class="detail-layout">
@@ -77,22 +80,29 @@
                                 <h2 id="preview-title">Sheet music</h2>
                                 <span class="small">Complete score · 1 page</span>
                             </div>
-                            <!-- Carcassi score/preview: Mutopia id=13, Jeff Covey, public domain. Other editions: assets/credits.txt. -->
+                            <!-- PDF-rendered preview sources:
+             Carcassi: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13, Jeff Covey, public domain.
+             Sor Andante: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=413, Mark Van den Borre, CC BY-SA 4.0.
+             Sor Thema: https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=455, Mark Van den Borre, CC BY-SA 3.0. -->
                             <a
                                 id="score-image-link"
                                 href="assets/scores/carcassi.pdf"
                                 aria-label="Open the full PDF score"
-                                ><img
+                            >
+                                <img
                                     id="detail-image"
                                     src="assets/previews/carcassi.png"
-                                    alt="Complete first page of Carcassi’s Etude No. 1, Op. 60" /></a
-                            ><a
+                                    alt="Complete first page of Carcassi’s Etude No. 1, Op. 60"
+                                />
+                            </a>
+                            <a
                                 class="button secondary"
                                 id="score-download"
                                 href="assets/scores/carcassi.pdf"
                                 download
-                                >Download PDF score</a
                             >
+                                Download PDF score
+                            </a>
                         </section>
                         <section class="practice-tip" aria-labelledby="notes-title">
                             <p class="eyebrow">At your music stand</p>
@@ -102,8 +112,8 @@
                                 bring out the bass without rushing.
                             </p>
                             <form id="note-form">
-                                <label for="practice-comment">Add your own note</label
-                                ><textarea
+                                <label for="practice-comment">Add your own note</label>
+                                <textarea
                                     id="practice-comment"
                                     rows="3"
                                     maxlength="600"
@@ -160,14 +170,16 @@
                                 <a
                                     id="audio-source"
                                     href="https://commons.wikimedia.org/wiki/File:Carcassi_Op_60_No_1.ogg"
-                                    >Audio source</a
                                 >
+                                    Audio source
+                                </a>
                                 ·
                                 <a
                                     id="audio-license"
                                     href="https://creativecommons.org/licenses/by-sa/3.0/"
-                                    >CC BY-SA 3.0</a
                                 >
+                                    CC BY-SA 3.0
+                                </a>
                             </p>
                             <p class="small">
                                 Use the recording to hear the phrasing; choose a slower pace when
@@ -187,14 +199,16 @@
                                 <a
                                     id="edition-source"
                                     href="https://www.mutopiaproject.org/cgibin/piece-info.cgi?id=13"
-                                    >View the source edition</a
                                 >
+                                    View the source edition
+                                </a>
                                 ·
                                 <a
                                     id="edition-license"
                                     href="https://www.mutopiaproject.org/legal.html"
-                                    >Public domain</a
                                 >
+                                    Public domain
+                                </a>
                             </p>
                             <p class="small">
                                 PDF and audio are unchanged. Preview is a PNG rendering of the PDF.

@@ -24,11 +24,24 @@ PNG previews render the original PDFs. Practice levels are editorial estimates.
 The Add page previews metadata, a selected filename and visibility preference;
 it does not upload or publish files. Notes on a detail page last until navigation.
 login.html provides a jQuery simulated login: jianpengc / guitar123.
+The login page responds to Project 1B feedback, as confirmed by the student.
 Only the demo username is stored in sessionStorage, never the password.
 Guests may browse/search/read/listen. Saving, notes, library and add require login.
 Successful login returns to the requested local page; logout returns home.
 The session is a UI simulation, not server authentication or an access-control boundary.
 There is no backend. Storage failure is reported without a false success.
+
+Requirement map (also described in the separate two-page summary):
+- 35 pts search: header GET form -> search.html; explicit if/else; jQuery results/help.
+- 30 pts interactions: delegated click saves; change + closest/find updates practice.
+  Each changes existing elements AND creates a new paragraph. Neither is validation.
+  Login validation is separate from these two counted interactions.
+- 10 pts hosting: cs5774/project3/index.html; relative paths throughout.
+- 20 pts code: original external js/app.js, shared CSS, only jQuery, named sections
+  and explanatory comments; four-space formatting; Chrome/Firefox verification.
+- 5 pts documentation: two pages, application context + requirements/keyphrase/URL.
+The original five Project 2 page structures remain; search/login add two pages.
+No registration, real accounts or extra libraries are needed for this prototype.
 
 GitHub deployment uses the authenticated cjpcool account and the commit display
 name jianpengc. No separate GitHub account is impersonated or renamed.
