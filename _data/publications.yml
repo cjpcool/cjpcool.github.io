@@ -13,9 +13,9 @@ main:
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Haohui Wang, Dongqi Fu, Dawei Zhou
     conference_short: KDD 2026
     conference: Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining AI4Science Track, 2026
-    pdf: 
+    pdf: https://dl.acm.org/doi/10.1145/3770855.3818877
     code: https://github.com/cjpcool/DuetDA
-    page: https://dl.acm.org/doi/10.1145/3770855.3818877
+    page:
     image: ./assets/pub_img/DuetDA.png
 
 
