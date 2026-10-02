@@ -4,7 +4,7 @@ main:
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Dongqi Fu, Junkai Zhang, Zian Jia, Ling Li, Wei Wang, Dawei Zhou
     conference_short: COLM 2026
     conference: Third Conference on Language Modeling
-    pdf: https://arxiv.org/pdf/2604.27300
+    pdf: https://openreview.net/pdf?id=XccQjdb8wh
     code: https://github.com/cjpcool/MetaSymbO
     page: http://zhoulab-1.cs.vt.edu:5559/#design
     image: ./assets/pub_img/MetaSymbO.png
