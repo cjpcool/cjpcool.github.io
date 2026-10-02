@@ -13,7 +13,7 @@ Both persist in localStorage; neither is validation.
 
 Pages retain Project 2's structure: home hero + cards, browse filter + list,
 detail preview/notes + sidebar, library saved cards + uploads section,
-add two-column form. Search results is the additional required page.
+add two-column form. Search results and login are additional pages.
 Only runtime library: the required, locally stored jQuery 3.7.1.
 
 Three real one-page guitar scores and three playable audio files are included.
@@ -23,7 +23,12 @@ links are in assets/credits.txt and on each detail page. PDFs/audio unchanged;
 PNG previews render the original PDFs. Practice levels are editorial estimates.
 The Add page previews metadata, a selected filename and visibility preference;
 it does not upload or publish files. Notes on a detail page last until navigation.
-There is no login/backend. Storage failure is reported without a false success.
+login.html provides a jQuery simulated login: jianpengc / guitar123.
+Only the demo username is stored in sessionStorage, never the password.
+Guests may browse/search/read/listen. Saving, notes, library and add require login.
+Successful login returns to the requested local page; logout returns home.
+The session is a UI simulation, not server authentication or an access-control boundary.
+There is no backend. Storage failure is reported without a false success.
 
 GitHub deployment uses the authenticated cjpcool account and the commit display
 name jianpengc. No separate GitHub account is impersonated or renamed.

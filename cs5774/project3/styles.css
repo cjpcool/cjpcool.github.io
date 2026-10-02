@@ -197,6 +197,37 @@ main.container {
     flex-shrink: 0;
     font-size: 12px;
 }
+.account-controls {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+}
+.account-controls .button {
+    min-height: 36px;
+    padding: 6px 12px;
+}
+.login-panel {
+    max-width: 480px;
+    margin: 25px auto;
+    padding: 30px;
+    border: 1px solid var(--line);
+    border-radius: 5px;
+}
+.login-panel fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.login-panel .field {
+    margin-bottom: 20px;
+}
+.login-panel .button {
+    width: 100%;
+}
+.field-error {
+    border-color: var(--error);
+}
 .primary-nav {
     display: flex;
     gap: 32px;

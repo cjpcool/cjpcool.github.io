@@ -38,20 +38,27 @@
                             placeholder="Try fingerstyle"
                         /><button class="button" type="submit">Search</button>
                     </form>
-                    <span class="account-label">Uploader: <strong>jianpengc</strong></span>
+                    <div class="account-controls">
+                        <a class="text-link" id="login-link" href="login.html">Log in</a
+                        ><span class="account-label" id="signed-in-label" hidden>jianpengc</span
+                        ><button class="button secondary" id="logout-button" type="button" hidden>
+                            Log out
+                        </button>
+                    </div>
                 </div>
                 <nav class="primary-nav" aria-label="Primary navigation">
                     <a href="index.html">Home</a
                     ><a href="browse.html" aria-current="page">Browse sheet music</a
-                    ><a href="library.html">My library</a><a href="add.html">Add sheet music</a>
+                    ><a href="library.html" class="workspace-link" hidden>My library</a
+                    ><a href="add.html" class="workspace-link" hidden>Add sheet music</a>
                 </nav>
             </div>
         </header>
         <main class="container" id="main">
             <noscript
                 ><p class="notice">
-                    Enable JavaScript to search, save pieces, and track practice. The browse page
-                    still links to each score.
+                    Enable JavaScript to log in, search, save pieces, and track practice. The browse
+                    page still links to each score.
                 </p></noscript
             >
             <div class="page-heading">

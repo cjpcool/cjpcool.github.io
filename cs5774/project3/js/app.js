@@ -95,6 +95,96 @@ jQuery(function ($) {
     const parameters = new URLSearchParams(window.location.search);
     const query = parameters.get("q") || "";
 
+    // Static-site DEMO only: this flag controls the UI, not server authentication.
+    // Store a username for this tab's session; never store a password.
+    const sessionKey = "guitarshelf-demo-user";
+    let signedIn = false;
+    try {
+        signedIn = sessionStorage.getItem(sessionKey) === "jianpengc";
+    } catch (error) {
+        // Public browsing still works when storage is unavailable.
+    }
+    function goToLogin() {
+        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+        window.location.assign(
+            "login.html?next=" + encodeURIComponent(currentPage + window.location.search),
+        );
+    }
+    $("#login-link").prop("hidden", signedIn);
+    $("#signed-in-label, #logout-button, .workspace-link").prop("hidden", !signedIn);
+    if (signedIn) $(".library-entry").attr("href", "library.html").text("Open my library");
+    if (!signedIn && $("main[data-requires-login]").length) {
+        goToLogin();
+        return;
+    }
+
+    // Keep redirect targets inside this project; no external or arbitrary pages.
+    const requestedPage = parameters.get("next") || "library.html";
+    const nextPage = /^(index|browse|search|detail|library|add)\.html(?:\?[^#]*)?$/.test(
+        requestedPage,
+    )
+        ? requestedPage
+        : "library.html";
+    if (signedIn && $("#login-form").length) {
+        $("#login-title").text("You’re logged in");
+        $("#login-form, #login-help, .login-session-note").prop("hidden", true);
+        $("<p>", { class: "notice", text: "You are signed in as jianpengc." }).insertAfter(
+            "#login-title",
+        );
+        $("<p>")
+            .append($("<a>", { class: "button", href: nextPage, text: "Continue to your page" }))
+            .insertAfter("#login-form");
+    }
+    $("#login-form").on("submit", function (event) {
+        event.preventDefault();
+        const $fields = $(this).find("input");
+        $fields.removeClass("field-error").removeAttr("aria-invalid");
+        $("#login-status").empty();
+        const username = $("#login-username").val().trim().toLowerCase();
+        $("#login-username").val(username);
+        if (!this.reportValidity()) return;
+        if (username !== "jianpengc" || $("#login-password").val() !== "guitar123") {
+            $fields.addClass("field-error").attr("aria-invalid", "true");
+            $("#login-status").append(
+                $("<p>", {
+                    class: "notice error",
+                    role: "alert",
+                    text: "Those details do not match the demo account. Use jianpengc and guitar123.",
+                }),
+            );
+            $("#login-password").trigger("focus");
+            return;
+        }
+        try {
+            sessionStorage.setItem(sessionKey, "jianpengc");
+        } catch (error) {
+            $("#login-status").append(
+                $("<p>", {
+                    class: "notice error",
+                    role: "alert",
+                    text: "Could not start the demo session. Allow site storage and try again.",
+                }),
+            );
+            return;
+        }
+        this.reset();
+        window.location.assign(nextPage);
+    });
+    $("#login-fields").prop("disabled", false);
+    $("#logout-button").on("click", function () {
+        try {
+            sessionStorage.removeItem(sessionKey);
+        } catch (error) {
+            $("<p>", {
+                class: "notice error",
+                role: "alert",
+                text: "Could not end the demo session. Allow site storage and try again.",
+            }).prependTo("main");
+            return;
+        }
+        window.location.assign("index.html");
+    });
+
     // Accept only known piece IDs and valid statuses from browser storage.
     try {
         const stored = JSON.parse(localStorage.getItem(storageKey));
@@ -244,7 +334,9 @@ jQuery(function ($) {
     }
 
     $(".sheet-card").each(function () {
-        if (Object.hasOwn(library, $(this).attr("data-sheet-id"))) {
+        if (!signedIn) {
+            $(this).find(".save-button").text("Log in to save");
+        } else if (Object.hasOwn(library, $(this).attr("data-sheet-id"))) {
             $(this)
                 .addClass("is-saved")
                 .find(".save-button")
@@ -256,6 +348,10 @@ jQuery(function ($) {
 
     // INTERACTION 1: delegated CLICK also handles cards created after page load.
     $("main").on("click", ".save-button", function () {
+        if (!signedIn) {
+            goToLogin();
+            return;
+        }
         const $card = $(this).closest(".sheet-card");
         const id = $card.attr("data-sheet-id");
         if (!pieces.some((piece) => piece.id === id) || Object.hasOwn(library, id)) return;
@@ -349,6 +445,10 @@ jQuery(function ($) {
     // Local practice notes, with native validation and safe text insertion.
     $("#note-form").on("submit", function (event) {
         event.preventDefault();
+        if (!signedIn) {
+            goToLogin();
+            return;
+        }
         const note = $("#practice-comment").val().trim();
         $("#practice-comment").val(note);
         if (!this.reportValidity()) return;
