@@ -6,7 +6,7 @@ main:
     conference: Third Conference on Language Modeling
     pdf: https://arxiv.org/pdf/2604.27300
     code: https://github.com/cjpcool/MetaSymbO
-    page: 
+    page: http://zhoulab-1.cs.vt.edu:5559/#design
     image: ./assets/pub_img/MetaSymbO.png
 
   - title: "DuetDA: Decomposed and Dynamic Data Attribution with Model-State Gating for Accelerated Scientific Endeavors"
