@@ -1,5 +1,15 @@
 main:
 
+  - title: "ReGDiff: Guided Diffusion in Regulated Latent Space for Exploring Metamaterial Voxel Geometry"
+    authors: Wangzhi Zhan, <strong>Jianpeng Chen</strong>, Dongqi Fu, Dawei Zhou
+    conference_short: NeurIPS 2026
+    conference: NeurIPS
+    pdf: https://arxiv.org/pdf/2609.34231
+    code: 
+    page: 
+    image: ./assets/pub_img/ReGDiff.png
+
+
   - title: "MetaSymbO: Multi-Agent Language-Guided Metamaterial Discovery via Symbolic Latent Evolution"
     authors: <strong>Jianpeng Chen</strong>, Wangzhi Zhan, Dongqi Fu, Junkai Zhang, Zian Jia, Ling Li, Wei Wang, Dawei Zhou
     conference_short: COLM 2026
