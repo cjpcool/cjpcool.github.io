@@ -6,7 +6,7 @@ layout: homepage
 
 I am a Ph.D. student in Computer Science at [Virginia Tech](https://cs.vt.edu/), advised by [Prof. Dawei Zhou](https://sites.google.com/view/dawei-zhou/home?authuser=0) in the [VLOG Lab](https://sites.google.com/view/dawei-zhou/vlog-lab). My research develops efficient, data-aware foundation models and agentic AI systems, with a particular interest in long-context modeling, adaptive data selection, multimodal reasoning, and scientific discovery.
 
-I build learning systems that connect graph and multimodal representation learning, generative modeling, and physics-grounded agents for materials and molecular science. My work has appeared at COLM, KDD, ACL, ICML, NAACL, AAAI, and TNNLS. In Summer 2026, I am a PhD SWE+ Intern at [Google](https://www.google.com/), working on training and inference efficiency for large-scale recommendation models.
+I build learning systems that connect graph and multimodal representation learning, generative modeling, and physics-grounded agents for materials and molecular science.
 
 <div class="pillar-grid">
   <div class="pillar-card">
