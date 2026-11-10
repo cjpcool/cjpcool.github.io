@@ -49,7 +49,7 @@ I build learning systems that connect graph and multimodal representation learni
   <div class="experience-item">
     <div>
       <strong><a href="https://www.google.com/">Google</a></strong>
-      <p>PhD SWE+ Intern, YouTube Shorts Ranking</p>
+      <p>PhD SWE+ Intern</p>
     </div>
     <time>May 2026 - Aug. 2026</time>
     <p>Optimizing training and inference efficiency for large-scale recommendation models.</p>
